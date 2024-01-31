@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="wraper">
+      <img
+        src="./haclassalogo.jpg"
+        alt="">
+      <div id="box">
+        <h3 id="quesBoxh3">Direc. Himalay Sir.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          App by: Rajat Jaiswal</h3>
+        <div id="thankYou" class="thankYou">
+          <div class="timer-wrap">
+            <div class="timer-display" id="timer-displayId">
+             <div id="minuts"><h3 id="minuts-h"></h3></div>
+             <div id="dots-clock"><h6 id="dots-clock-h">:</h6></h1></div>
+             <div id="seconds"><h3 id="seconds-h"></h3></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <input class="options" type="radio" name="option" id="option1" value="a">
+            <label for="option1">Wait....</label>
+          </div>
+
+
+          <div class="row">
+            <input class="options" type="radio" name="option" id="option2" value="b">
+            <label for="option2">Wait....</label>
+          </div>
+
+
+          <div class="row">
+            <input class="options" type="radio" name="option" id="option3" value="c">
+            <label for="option3">Wait....</label>
+          </div>
+
+
+          <div class="row">
+            <input class="options" type="radio" name="option" id="option4" value="d">
+            <label for="option4">Wait....</label>
+          </div>
+
+
+          <button class="btn" onclick="submitQuiz()">Submit</button>
+
+        </div>
+        <div class="welcome" id="welcome">
+          <h3>Walcome to The <span>HA Classes</span> Quiz.</h3>
+          <form action="" onsubmit="return false" class="quiz-form">
+            <label for="student-name">Student Name :</label>
+            <input placeholder="Enter your name" type="text" name="student" id="student-name" class="student" required>
+            <label for="student-class">Class :</label>
+            <input placeholder="Enter your class" type="text" name="student" id="student-class" class="student"
+              required>
+            <label for="password">Password:</label>
+            <input placeholder="Enter password" type="password" name="student" id="password" class="student" required>
+
+            <input  type="submit" value="Start Quiz" id="start-btn">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+</body>
+
+</html>

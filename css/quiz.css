@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+
+.wraper {
+  width: 100%;
+  position: relative;
+  padding-right: .8%;
+  padding-bottom: 0.9%;
+  max-width: 47%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: inset -61px -80px 94px -34px rgba(0, 0, 0, 0.45), -20px -7px 27px 0px rgba(0, 0, 0, 0.45);
+}
+
+.wraper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 96% 100%;
+  filter: sepia(1);
+}
+
+.container {
+  background-image: url(./black-floral-abstract-background-qyax4qivqf1rv4xe.jpg);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  width: 100%;
+  /* min-width: 600px; */
+  max-width: 495px;
+  height: auto;
+  background-color: #000000a8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+h3#quesBoxh3 {
+  padding-left: 30px;
+  background-color: #9a845dc7;
+  padding-top: 25px;
+  padding-bottom: 13px;
+  margin-bottom: 5px;
+  border-radius: 10px 15px 0 39px;
+  color: #ffffffcc;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.row {
+  padding-left: 25px;
+  background-color: #f0dfc0bf;
+
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-inline: 5px;
+  font-family: math;
+  display: flex;
+  align-items: center;
+}
+
+
+.row {
+  margin-top: 40px;
+}
+
+label {
+  padding-left: 8px;
+
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 12px;
+  font-family: system-ui;
+
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+}
+
+input[type="radio"]:checked {
+  font-size: 50px;
+}
+
+.thankYou {
+  display: none;
+  position: relative;
+
+}
+
+button.btn {
+  background-color: #927e59;
+  border: 0px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  margin-inline: 10px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 11px 10px -7px rgb(0 0 0);
+}
+
+.btn:hover {
+  background-color: #519be6d9;
+  box-shadow: 19px 36px 35px -32px rgb(0 0 0) inset;
+}
+
+.thanks {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 164px;
+  padding-top: 30px;
+}
+
+.thankYou h3 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
+.welcome {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h3 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  color: white;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.welcome h3 span {
+  color: #f58f41;
+  font-size: 30px;
+}
+
+.quiz-form {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.quiz-form input,
+label {
+  display: flex;
+  width: 100%;
+  /* max-width: 280px; */
+}
+
+.quiz-form label {
+  margin-right: 11px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  transform: translateY(4px);
+  color: #ffffffab;
+}
+
+.quiz-form .student {
+
+  border: 1px solid #d7c095;
+  padding-block: 7px;
+  outline: none;
+  padding-left: 12px;
+  background-color: #00000066;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#start-btn {
+  padding-block: 12px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #9a845de6;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 11px 10px -7px rgb(0 0 0);
+}
+
+#start-btn:hover {
+  background-color: #519be6d9;
+  box-shadow: 19px 36px 35px -32px rgb(0 0 0) inset;
+}
+
+
+
+.quesDisplayVis {
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  position: relative;
+}
+
+.welcomeDisplayNone {
+  display: none;
+}
+
+/* Timerr */
+
+.timer-wrap {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  right: 525px;
+}
+
+
+.timer-display {
+  width: 130px;
+  height: 53px;
+  background-color: #615d5d00;
+  border-radius: 5px;
+  box-shadow: 0px 7px 7px -4px rgb(255 255 255), 0px 14px 56px 9px rgb(255 164 0);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#minuts {
+  width: 36%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#dots-clock {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 57px;
+  padding-bottom: 11px;
+}
+
+#seconds {
+  width: 36%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 11px;
+}
+
+#minuts-h,
+#seconds-h{
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+
+}
+
+#dots-clock-h {
+  padding: 0;
+  font-size: 52px;
+}
+
+@media screen and (max-width:767px) {
+  .container {
+
+    height: 100vh;
+
+  }
+
+  .wraper {
+    width: 100%;
+    max-width: 767px;
+    margin-left: 6px;
+    margin-right: 1px;
+  }
+
+  #box {
+    width: 100%;
+    max-width: 767px;
+    min-width: 280px;
+  }
+
+  label {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    min-width: 280px;
+    margin-left: 0px;
+
+  }
+
+  h3#quesBoxh3 {
+    font-size: 14px;
+  }
+
+  button.btn {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .quiz-form .student {
+    padding-block: 13px;
+  }
+
+  #start-btn {
+    margin-top: 40px;
+    padding-block: 20px;
+}
+
+  .welcome h3 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffffdb;
+    position: absolute;
+    top: -126px;
+}
+
+.welcome h3 span {
+  font-size: 30px;
+}
+
+
+/* timing */
+
+.timer-wrap {
+  width: 100%;
+  position: absolute;
+  top: -150px;
+  right: 0;
+}
+
+}
