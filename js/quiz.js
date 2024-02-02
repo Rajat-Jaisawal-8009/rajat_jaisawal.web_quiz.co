@@ -1,101 +1,157 @@
 const questions = [{
-  "que": "Who is the Father of our Nation ?",
-  "a": "Mahatma Gandhi",
-  "b": "Rajiv Gandhi",
-  "c": "Indira Gandhi",
-  "d": "Jawahar Lal Nehru",
+  'que': ' What is the greatest possible speed at which a man can walk 52 km and 91 km in exact number of hours ?',
+  "a": "17 km/hour",
+  "b": "7 Km/hour",
+  "c": "13 km/hour",
+  "d": " 26 km/hour",
   "dfkfb": "b",
-  "dfktfb": "a",
-  "dfklfb": "c",
+  "dfktfb": "c",
+  "dfklfb": "a",
   "dfkifb": "jjkkll"
 
 },
 
 {
-  "que": "Who was the first President of India ?",
-  "a": "Jawahar Lal Nehru",
-  "b": "Mahatma Gandhi",
-  "c": "Dr. Rajendra Prasad",
-  "d": "Narendra Modi",
+  "que": 'The largest number which divides 70 and 125, leaving remainders 5 and 8, respectively, is',
+  "a": "13",
+  "b": "65",
+  "c": "875",
+  "d": "1750",
   "dfkfb": "b",
-  "dfktfb": "c",
-  "dfklfb": "a",
+  "dfktfb": "a",
+  "dfklfb": "c",
   "dfhfb": "d"
 },
 
 {
-  "que": "Who was the first Prime Minister of India ?",
-  "a": "Salman Khurshid",
-  "b": "Jawahar Lal Nehru",
-  "c": "Indira Gandhi",
-  "d": "Rajiv Gandhi",
+  "que": `If two positive integers a and b are written as <img class="qusMath20" src="./mathQues20/que3-15pxbold.svg" alt=""> are prime numbers, then HCF (a, b) is`,
+  "a": `<img class="qusMath20" src="./mathQues20/xyQ3.svg" alt="">`,
+  "b": `<img class="qusMath20" src="./mathQues20/xy2Q3.svg" alt="">`,
+  "c": `<img class="qusMath20" src="./mathQues20/x3y3Q3.svg" alt="">`,
+  "d": `<img class="qusMath20" src="./mathQues20/x2y2Q3.svg" alt="">`,
   "dfkfb": "a",
   "dfktfb": "b",
   "dfklfb": "c",
-  "dfkifb": "1234"
+  "dfkifb": "ha8009"
 },
 
+
 {
-  "que": "Which is the longest river on the earth?",
-  "a": "Volga",
-  "b": "Gang",
-  "c": "Amazon",
-  "d": "Nile",
-  "dfkfb": "b",
+  "que": `If two positive integers p and q can be expressed as <img class="qusMath20" src="./mathQues20/question-4.svg" alt=""> ; a, b being prime numbers, then LCM ( p, q ) is`,
+  "a": `<img class="qusMath20" src="./mathQues20/abQ4.svg" alt="">`,
+  "b": `<img class="qusMath20" src="./mathQues20/a2b2Q4.svg" alt="">`,
+  "c": `<img class="qusMath20" src="./mathQues20/a3b2Q4.svg" alt="">`,
+  "d": `<img class="qusMath20" src="./mathQues20/a3b3Q4.svg" alt="">`,
+  "dfkfb": "a",
+  "dfktfb": "c",
+  "dfklfb": "b",
+  "dfkifb": "dgh"
+},
+{
+  "que": "The least number that is divisible by all the numbers from 1 to 10 ( both inclusive ) is",
+  "a": "10",
+  "b": "100",
+  "c": "504",
+  "d": "2520",
+  "dfkfb": "a",
   "dfktfb": "d",
   "dfklfb": "c",
-  "dfhfb": "a"
+  "dfkifb": "dhgdh"
+},
+{
+  "que": `LCM of <img class="qusMath20" src="./mathQues20/question-6.svg" alt=""> is`,
+  "a": "40",
+  "b": "560",
+  "c": "1120",
+  "d": "1680",
+  "dfkfb": "a",
+  "dfktfb": "d",
+  "dfklfb": "c",
+  "dfkifb": "dfgh"
 },
 
 {
-  "que": "Name the first 3 planets in our solar system",
-  "a": "Earth, Venus, and Mercury",
-  "b": "Mars, Saturn, and Uranus",
-  "c": "Mercury, Venus, and Earth",
-  "d": "Mars, Saturn, and Neptune",
-  "dfkfb": "b",
+  "que": `HCF of <img class="qusMath20" src="./mathQues20/question-7.svg" alt=""> is`,
+  "a": "30",
+  "b": "48",
+  "c": "60",
+  "d": "105",
+  "dfkfb": "a",
   "dfktfb": "c",
-  "dfklfb": "a",
-  "dfhfb": "d"
+  "dfklfb": "b",
+  "dfkifb": "dfghdfgh"
 },
 
 {
-  "que": "Smallest state of India is?",
-  "a": "Tamil Nadu",
-  "b": "Goa",
-  "c": "Kerala",
-  "d": "Gujrat",
+  "que": "The HCF of two numbers is 27 and their LCM is 162. If one of the numbers is 54, what is the other number ?",
+  "a": "36",
+  "b": "45 ",
+  "c": "9",
+  "d": "81",
+  "dfkfb": "a",
+  "dfktfb": "d",
+  "dfklfb": "c",
+  "dfkifb": "dfgdf"
+},
+
+{
+  "que": "The product of two numbers is 1600 and their HCF is 5. The LCM of the number is",
+  "a": "8000",
+  "b": "1600",
+  "c": "320",
+  "d": "1605",
+  "dfkfb": "a",
+  "dfktfb": "c",
+  "dfklfb": "b",
+  "dfkifb": "dfgdf"
+},
+{
+  "que": "What is the largest number that divides each one of 1152 and 1664 exactly ?",
+  "a": "32",
+  "b": "64",
+  "c": "128",
+  "d": "256",
+  "dfkfb": "a",
+  "dfktfb": "c",
+  "dfklfb": "b",
+  "dfkifb": "dfgh"
+},
+
+{
+  "que": "What is the largest number that divides 245 and 1029, leaving remainder 5 in each case?",
+  "a": "15",
+  "b": "16",
+  "c": "9",
+  "d": "5",
   "dfkfb": "a",
   "dfktfb": "b",
   "dfklfb": "c",
-  "dfhfb": "d"
+  "dfkifb": "1dfghdf"
 },
 
+
 {
-  "que": "Fastest animal on earth is?",
-  "a": "Jaguar",
-  "b": "Tigel",
-  "c": "Lion",
-  "d": "Cheetah",
+  "que": "a and b are two positive integers such that the least prime factor of a is 3 and the least prime factor of b is 5. Then, the least prime factor of (a + b) is " ,
+  "a": "2",
+  "b": "3",
+  "c": "5",
+  "d": "8",
   "dfkfb": "b",
-  "dfktfb": "d",
+  "dfktfb": "a",
   "dfklfb": "c",
-  "dfhfb": "a"
+  "dfkifb": "dghdfgh"
 },
-
 {
-  "que": "What is the name of Lord Ram's Father?",
-  "a": "Janaka Ji",
-  "b": "Vasudeva JI",
-  "c": "Dasharath Ji",
-  "d": "Kesari Ji",
-  "dfkfb": "b",
-  "dfktfb": "c",
-  "dfklfb": "a",
-  "dfhfb": "d"
+  "que": "If the HCF of 65 and 117 is expressible in the form 65m – 117, then the value of m is",
+  "a": "4",
+  "b": "2",
+  "c": "1",
+  "d": "3",
+  "dfkfb": "a",
+  "dfktfb": "b",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
 },
-
-
 
 ];
 
@@ -104,10 +160,10 @@ const questions = [{
 let index = 0;
 let right = 0,
 wrong = 0;
-var hitonsc,lerti;
+var hitonsc, lerti;
 var hitonec = lerti;
 lerti = questions[2]["dfkifb"]
-hitonsc=lerti;
+hitonsc = lerti;
 let totle = questions.length;
 
 const quesBoxh3 = document.getElementById("quesBoxh3");
@@ -116,34 +172,11 @@ const optionsInput = document.querySelectorAll(".options");
 const printMinuts = document.getElementById('minuts-h');
 const printSecond = document.getElementById('seconds-h');
 
-const subject = "Science";
-const minutsValue = 10; // minuts ko idhar se change karte hai//
-const secondValue = 10;// idhar se ham sec ko value denge
+const subject = "Math";
+const minutsValue = 20; // minuts ko idhar se change karte hai//
+const secondValue = 60; // idhar se ham sec ko value denge
 let min = minutsValue;
 let sec = 0; // ye hamesa 0 hi rahega//
-
-function countdown(){
-  if(sec === 0){
-    sec =  secondValue;
-    min--;
-  };
-
-  sec--;
-
-  if(min < 10){
-    printMinuts.innerHTML = "0" + min;
-  }else{
-    document.getElementById('minuts-h').innerHTML= min;
-  };
-
-  if(sec < 10){
-    printSecond.innerHTML=  "0"+ sec ;
-  }else{
-    document.getElementById('seconds-h').innerHTML= sec ;
-  };
-
-  };
-
 
 
 
@@ -154,11 +187,11 @@ if (index === totle) {
 } else {
   reset();
   const data = questions[index];
-  quesBoxh3.innerText = `Q ${index+1} . ${data.que}`;
-  optionsInput[0].nextElementSibling.innerText = data.a;
-  optionsInput[1].nextElementSibling.innerText = data.b;
-  optionsInput[2].nextElementSibling.innerText = data.c;
-  optionsInput[3].nextElementSibling.innerText = data.d;
+  quesBoxh3.innerHTML = `Q ${index+1} . ${data.que}`;
+  optionsInput[0].nextElementSibling.innerHTML ="(a)." + " " +data.a;
+  optionsInput[1].nextElementSibling.innerHTML ="(b)." + " " +data.b;
+  optionsInput[2].nextElementSibling.innerHTML ="(c)." + " " +data.c;
+  optionsInput[3].nextElementSibling.innerHTML ="(d)." + " " +data.d;
 }
 };
 const submitQuiz = () => {
@@ -192,83 +225,163 @@ optionsInput.forEach((input) => {
 })
 }
 
-const startQuizBtn = document.getElementById("welcome");
-const displayques = document.getElementById("thankYou");
-
-const startButton = document.getElementById("start-btn");
-
-// for only onec call startButton //
-function onecCallBtn(){
-  startButton.removeEventListener('click', startQuiz);
-}
-startButton.addEventListener('click', startQuiz);
-startButton.addEventListener('click', onecCallBtn);
 
 
+// countDownQuiz Timing///
+function countdown() {
+if (sec === 0) {
+  sec = secondValue;
+  min--;
+};
 
-function startQuiz(){
-let docum = String(document.getElementById("password").value);
-let startTimeMin = 1;// minuts ko idhar se change karte hai//
+sec--;
+
+if (min < 10) {
+  printMinuts.innerHTML = "0" + min;
+} else {
+  printMinuts.innerHTML = min;
+};
+
+if (sec < 10) {
+  printSecond.innerHTML = "0" + sec;
+} else {
+  printSecond.innerHTML = sec;
+};
+
+};
+
+
+// startTimeDisply /// // for Start Timing
+
+let startTimeMin = 1; // minuts ko idhar se change karte hai//
 let startTimeSec = 0; // ye hamesa 0 hi rahega//
+const startButton = document.getElementById("start-btn");
+const startTimeDisply = document.getElementById("countDown4sec");
 
-if(docum===hitonsc){
- // startButton /// 
-function countstartTime(){
-  if(startTimeSec === 0){
-    startTimeSec = 5;// idhar se ham sec ko value denge
-    startTimeMin--;
-  };
+function countstartTime() {
+if (startTimeSec === 0) {
+  startTimeSec = 6; // idhar se ham sec ko value denge
+  startTimeMin--;
+};
 
-  startTimeSec--;
-  startButton.value= "Start in " + (startTimeSec+"s");
-  };
+startTimeSec--;
+startTimeDisply.innerHTML = startTimeSec; //print start in seccond//
+console.log(startTimeSec)
+};
+
+const startQuizBtn = document.getElementById("welcome");
+const displayques = document.getElementById("thankYou"); // main question loader //
 
 
-  setTimeout(()=>{
-    studentname = document.getElementById("student-name").value.toUpperCase();
-    studentclass = document.getElementById("student-class").value
-   
-   
+
+// for only onec call startButton //|| 
+// function onecCallBtn() {
+//   startButton.removeEventListener('click', startQuiz);
+// }
+startButton.addEventListener('click', startQuiz);
+// startButton.addEventListener('click', onecCallBtn);
+
+
+
+// startButton /// 
+function startQuiz() {
+studentname = document.getElementById("student-name").value.toUpperCase();
+
+studentclass = document.getElementById("student-class").value;
+
+let docum = document.getElementById("password").value;
+
+if (studentname.length > 20 || studentname === "" ||
+  Number(studentname) === Number(studentname) ||
+  studentname.includes("0") || studentname.includes("1") ||
+  studentname.includes("2") || studentname.includes("3") ||
+  studentname.includes("4") || studentname.includes("5") ||
+  studentname.includes("6") || studentname.includes("7") ||
+  studentname.includes("8") || studentname.includes("9")) {
+  // console.log("Enter correct name")
+  document.getElementById("start-btn").value = "Incorrect Name"
+  document.getElementById("student-name").placeholder = "Please enter correct name ! (NaN) "
+
+
+
+} else if (studentclass === "" || studentclass < 4 || studentclass > 12) {
+  // console.log("Enter correct class")
+
+  document.getElementById("student-class").placeholder = "! Please enter Class 4 to 12  ";
+
+
+
+} else if (docum === hitonsc) {
+
+  document.getElementById('startingQuizTime').classList.add("starting-quiz-time-diplayVis")
+
+  // for StartQuiz Timing
+
+  const intervalStartQz = setInterval(() => {
+    if (startTimeSec === 0 && startTimeMin === 0) {
+      startTimeDisply.innerHTML = startTimeSec; //print 0 on start buttton//
+      clearInterval(intervalStartQz)
+      console.log(startTimeSec)
+    } else {
+      countstartTime()
+    }
+  }, 1000); //har 1s calling
+
+
+  //------------------------------------------
+
+  setTimeout(() => {
+
     startQuizBtn.classList.add("welcomeDisplayNone");
     displayques.classList.add("quesDisplayVis")
-  
+
     loadQuestion()
-  },6000)}else{
-    document.getElementById("start-btn").value = "Incorrect Password"
-  }   
 
-
-// for Start Timing
-  setInterval(()=>{
-    if(startTimeSec === 0 && startTimeMin === 0){
-      startButton.value= startTimeSec ;
-    }else{
-      countstartTime()
-  }
-  },1000)//timing 1s calling
+  }, 6000); //har 1s calling
 
 
 
-  //for Quiz Timing
-  setInterval(()=>{
-    if(min === 0 && sec === 0){
-      document.getElementById('minuts-h').innerHTML= "0"+ min;
-      document.getElementById('seconds-h').innerHTML=  "0"+ sec ;
+  //--------------------------------------------------------------
+
+
+  //for QuizSubmit Timing
+  const intervalQuiz = setInterval(() => {
+    if (min === 0 && sec === 0) {
+
+      document.getElementById('minuts-h').innerHTML = "0" + min;
+      document.getElementById('seconds-h').innerHTML = "0" + sec;
 
       endQuiz();
 
-    }else{
-  setTimeout(countdown,6000) 
-  };
- },1000)//timing 1s calling
+      clearInterval(intervalQuiz)
+
+    } else {
+      setTimeout(countdown, 6000)
+      console.log(intervalQuiz)
+    };
+  }, 1000) //timing 1s calling
+
+} else {
+  document.getElementById("start-btn").value = "Incorrect Password"
+  document.getElementById("password").placeholder = "! Please enter correct password"
+}
 
 };
+
+
+function myFocus() {
+document.getElementById("start-btn").value = "Start Quiz"
+}
+
+
+
+
+
 
 const endQuiz = () => {
 document.getElementById("quesBoxh3").innerHTML = `
 Thank you for attempt the Quiz .`
-document.getElementById("thankYou").innerHTML = 
-`<h3>  Student Name : ${studentname} <br> Class : ${studentclass}th <br><br> Subject : ( ${subject} ) </h3> <br>  <h2 class="thanks"> [ ${right} / ${totle} ] <br>( are correct answers ) <br> &  <br>( incorrect answer :  ${wrong} ) </h2>`
+document.getElementById("thankYou").innerHTML =
+
+  `<h3>  Student Name : ${studentname} <br> Class : ${studentclass}th <br><br> Subject : ( ${subject} ) </h3> <br>  <h2 class="thanks"> [ ${right} / ${totle} ] <br>( Are correct answers ) <br> &  <br>( Incorrect answer :  ${wrong} ) </h2>`
 }
-
-

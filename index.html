@@ -6,19 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/quiz.css">
+  <link rel="shortcut icon" href="./img/shortLogo.jpg" type="image/x-icon">
+
+
 </head>
 
 <body>
 
+ 
   <div class="container">
+
     <div class="wraper">
-      <img
-        src="./img/haclassalogo.jpg"
-        alt="">
+    
+      <img class="wraper-banner" src="./img/haclassalogo.jpg" alt="">
+
       <div id="box">
-        <h3 id="quesBoxh3">Direc. Himalay Sir.
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          App by: Rajat Jaiswal</h3>
+        <h3 id="quesBoxh3"><span class="direc">Direc: Himalay Sir</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="appBy">App by : Rajat Jaiswal</span></h3>
+
         <div id="thankYou" class="thankYou">
           <div class="timer-wrap">
             <div class="timer-display" id="timer-displayId">
@@ -59,15 +63,23 @@
           <h3>Walcome to The <span>HA Classes</span> Quiz.</h3>
           <form action="" onsubmit="return false" class="quiz-form">
             <label for="student-name">Student Name :</label>
-            <input placeholder="Enter your name" type="text" name="student" id="student-name" class="student" required>
+            <input onfocus="myFocus()" placeholder="Enter your name" type="text" min="3" max="20" name="student" id="student-name" class="student" required>
             <label for="student-class">Class :</label>
-            <input placeholder="Enter your class" type="text" name="student" id="student-class" class="student"
+            <input placeholder="Enter your class" type="number" min="4" max="12" name="student" id="student-class" class="student"
               required>
             <label for="password">Password:</label>
-            <input placeholder="Enter password" type="password" name="student" id="password" class="student" required>
+            <input onfocus="myFocus()" placeholder="Enter password" type="password" name="student" id="password" class="student" required>
 
             <input  type="submit" value="Start Quiz" id="start-btn">
           </form>
+          <div class="starting-quiz-time" id="startingQuizTime">
+            <div class="starting-quiz-time-box" id="starting-quiz-time-box">
+              
+              <h5 class="countDown4sec" id="countDown4sec"></h5>
+
+              <h5 class="star-in">Start in 5s</h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
