@@ -71,7 +71,7 @@ const questions = [{
 },
 
 {
-  "que": `HCF of <img class="qusMath20" src="./mathQues20/question-7.svg" alt=""> is`,
+  "que": `HCF of <img class="que7" src="./mathQues20/question-7.svg" alt=""> is`,
   "a": "30",
   "b": "48",
   "c": "60",
@@ -153,6 +153,85 @@ const questions = [{
   "dfkifb": "gjhdf"
 },
 
+{
+  "que":`Let a and b two positive integers such that <img class="qusMath20" src="./mathQues20/question-14.1.svg" alt=""> 
+  , where p and q are prime numbers. <br> If HCF <br> <img class="que14" src="./mathQues20/question-14.2.svg" alt="">` ,
+  "a": "15",
+  "b": "30",
+  "c": "35",
+  "d": "72",
+  "dfkfb": "a",
+  "dfktfb": "c",
+  "dfklfb": "b",
+  "dfkifb": "gjhdf"
+},
+{
+  "que":`If one zero of the quadratic polynomial <img class="qusMath20" src="./mathQues20/question-15.svg" alt=""> then the value of k is` ,
+  "a": "10",
+  "b": "-10",
+  "c": "5",
+  "d": "-5",
+  "dfkfb": "a",
+  "dfktfb": "b",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+{
+  "que":`If one of the zeroes of the quadratic polynomial <img class="qusMath20" src="./mathQues20/question-16.svg" alt=""> then the value of k is` ,
+  "a": "4/3",
+  "b": "-4/3",
+  "c": "2/3",
+  "d": "-2/3",
+  "dfkfb": "b",
+  "dfktfb": "a",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+{
+  "que":"A quadratic polynomial, whose zeroes are –3 and 4, is" ,
+  "a": `<img class="qusMath20" src="./mathQues20/q17-op-1.svg" alt="">`,
+  "b": `<img class="qusMath20" src="./mathQues20/q17-op-2.svg" alt="">`,
+  "c": `<img class="qusMath20" src="./mathQues20/q17-op-3.svg" alt="">`,
+  "d": `<img class="qusMath20" src="./mathQues20/q17-op-4.svg" alt="">`,
+  "dfkfb": "b",
+  "dfktfb": "a",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+{
+  "que":"The number of polynomials having zeroes as –2 and 5 is" ,
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "more than 3 ",
+  "dfkfb": "a",
+  "dfktfb": "d",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+{
+  "que": ` If the zeroes of the quadratic polynomial <img class="qusMath20" src="./mathQues20/question-19.svg" alt=""> then`,
+  "a": "a = -7, b = -1",
+  "b": "a = 5, b = –1",
+  "c": "a = 2, b = – 6 ",
+  "d": "a = 0, b = – 6",
+  "dfkfb": "a",
+  "dfktfb": "d",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+{
+  "que": `If one zero of the quadratic polynomial <img class="qusMath20" src="./mathQues20/question-20.svg" alt=""> then the value of k is`,
+  "a": "36",
+  "b": "-36",
+  "c": "18",
+  "d": "-18",
+  "dfkfb": "a",
+  "dfktfb": "b",
+  "dfklfb": "c",
+  "dfkifb": "gjhdf"
+},
+
 ];
 
 
@@ -173,7 +252,7 @@ const printMinuts = document.getElementById('minuts-h');
 const printSecond = document.getElementById('seconds-h');
 
 const subject = "Math";
-const minutsValue = 20; // minuts ko idhar se change karte hai//
+const minutsValue = 30; // minuts ko idhar se change karte hai//
 const secondValue = 60; // idhar se ham sec ko value denge
 let min = minutsValue;
 let sec = 0; // ye hamesa 0 hi rahega//
@@ -188,10 +267,10 @@ if (index === totle) {
   reset();
   const data = questions[index];
   quesBoxh3.innerHTML = `Q ${index+1} . ${data.que}`;
-  optionsInput[0].nextElementSibling.innerHTML ="(a)." + " " +data.a;
-  optionsInput[1].nextElementSibling.innerHTML ="(b)." + " " +data.b;
-  optionsInput[2].nextElementSibling.innerHTML ="(c)." + " " +data.c;
-  optionsInput[3].nextElementSibling.innerHTML ="(d)." + " " +data.d;
+  optionsInput[0].nextElementSibling.innerHTML ="(a)." + " " + " " +data.a;
+  optionsInput[1].nextElementSibling.innerHTML ="(b)." + " " + " " +data.b;
+  optionsInput[2].nextElementSibling.innerHTML ="(c)." + " " + " " +data.c;
+  optionsInput[3].nextElementSibling.innerHTML ="(d)." + " " + " " +data.d;
 }
 };
 const submitQuiz = () => {

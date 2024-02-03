@@ -65,9 +65,10 @@ body {
   border-radius: 10px 15px 0 39px;
   color: #ffffffcc;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 17px;
+  font-size: 18px;
   height: auto;
-  line-height: 22px;
+  line-height: 24px;
+  
 }
 
 img.qusMath20 {
@@ -400,7 +401,8 @@ label {
     width: 100%;
     max-width: 767px;
     min-width: 280px;
-  }
+    margin-top: 74px;
+}
 
   label {
 
@@ -449,8 +451,19 @@ label {
 .timer-wrap {
   width: 100%;
   position: absolute;
-  top: -224px;
+  top: -230px;
   right: 0;
 }
 
+}
+
+
+/* change big ques width */
+img.que14 {
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.que7{
+  width: 100%;
 }
