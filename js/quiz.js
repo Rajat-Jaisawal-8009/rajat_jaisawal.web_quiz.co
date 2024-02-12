@@ -444,8 +444,8 @@ const printMinuts = document.getElementById('minuts-h');
 const printSecond = document.getElementById('seconds-h');
 
 const subject = "Science";
-const minutsValue = 50; // minuts ko idhar se change karte hai//
-const secondValue = 10; // idhar se ham sec ko value denge
+const minutsValue = 30; // minuts ko idhar se change karte hai//
+const secondValue = 60; // idhar se ham sec ko value denge
 let min = minutsValue;
 let sec = 0; // ye hamesa 0 hi rahega//
 
