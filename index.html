@@ -21,68 +21,145 @@
       <img class="wraper-banner" src="./img/haclassalogo.jpg" alt="">
 
       <div id="box">
+<<<<<<< Updated upstream
         <h3 id="quesBoxh3"><span class="direc">Direc: Himalay Sir</span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="appBy">App by : Rajat Jaiswal</span></h3>
 
         <div id="thankYou" class="thankYou">
+=======
+        <div class="time-head">
+>>>>>>> Stashed changes
           <div class="timer-wrap">
             <div class="timer-display" id="timer-displayId">
-             <div id="minuts"><h3 id="minuts-h"></h3></div>
-             <div id="dots-clock"><h6 id="dots-clock-h">:</h6></h1></div>
-             <div id="seconds"><h3 id="seconds-h"></h3></div>
+              <div id="minuts">
+                <h3 id="minuts-h"></h3>
+              </div>
+              <div id="dots-clock">
+                <h6 id="dots-clock-h">:</h6>
+                </h1>
+              </div>
+              <div id="seconds">
+                <h3 id="seconds-h"></h3>
+              </div>
             </div>
           </div>
+          <h3 id="quesBoxh3" class="btn"><span class="direc">Direc: Himalay Sir</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="appBy">App by : Rajat Jaiswal</span></h3>
+        </div>
+
+        <div id="quesLoader" class="quesLoader">
+
+          <div class="row" style="display: none;">
+            <input class="options" type="radio" name="option" id="option5" value="0">
+            <label for="option5">skip</label>
+          </div>
+
 
           <div class="row">
-            <input class="options" type="radio" name="option" id="option1" value="a">
+            <input class="options" onclick="assing()" type="radio" name="option" id="option1" value="1">
             <label for="option1">Wait....</label>
           </div>
 
 
           <div class="row">
-            <input class="options" type="radio" name="option" id="option2" value="b">
+            <input class="options" onclick="assing()" type="radio" name="option" id="option2" value="2">
             <label for="option2">Wait....</label>
           </div>
 
 
           <div class="row">
-            <input class="options" type="radio" name="option" id="option3" value="c">
+            <input class="options" onclick="assing()" type="radio" name="option" id="option3" value="3">
             <label for="option3">Wait....</label>
           </div>
 
 
           <div class="row">
-            <input class="options" type="radio" name="option" id="option4" value="d">
+            <input class="options" onclick="assing()" type="radio" name="option" id="option4" value="4">
             <label for="option4">Wait....</label>
           </div>
 
+          
+          <div id="google_translate_element" >
 
-          <button class="btn" onclick="submitQuiz()">Submit</button>
+          </div>
 
+
+          <div class="quiz-buttons">
+            <select class="btn" name="" id="getQuesNum" onchange="getQuesNum()"> </select>
+            <!-- <button class="btn set-ques" onclick="getQuesNum()">Go</button> -->
+
+            <button class="btn" id="previous-btn" onclick="previousQues()">Previous</button>
+            <button class="btn next" id="next" onclick="nextQues()">Next</button>
+          </div>
+
+          
+
+          <div class="disp-none" id="submitAtLast">
+            <button id="submit-btn" class="btn" onclick="finelResult()">Submit</button>
+          </div>
         </div>
+
+        <div class="got-to-result" id="got-to-result">
+          <button id="got-to-result-btn" onclick="goToResult()" class="btn">Go to Result</button>
+        </div>
+
+        <div class="getResult" id="getResult">
+          <div class="getResult-box" id="getResult-box"></div>
+          <button id="checkAns" class="btn" onclick="checkAnswers()">Check Answer</button>
+        </div>
+
+
+
         <div class="welcome" id="welcome">
           <h3>Walcome to The <span>HA Classes</span> Quiz.</h3>
           <form action="" onsubmit="return false" class="quiz-form">
-            <label for="student-name">Student Name :</label>
-            <input onfocus="myFocus()" placeholder="Enter your name" type="text" min="3" max="20" name="student" id="student-name" class="student" required>
-            <label for="student-class">Class :</label>
-            <input placeholder="Enter your class" type="number" min="4" max="12" name="student" id="student-class" class="student"
-              required>
-            <label for="password">Password:</label>
-            <input onfocus="myFocus()" placeholder="Enter password" type="password" name="student" id="password" class="student" required>
 
-            <input  type="submit" value="Start Quiz" id="start-btn">
+            <label for="student-name">Student Name :</label>
+            <input onfocus="myFocus()" placeholder="Enter your name" type="text" min="3" max="20" name="student"
+              id="student-name" class="student" required>
+
+
+            <label for="student-class">Class :</label>
+            <select class="student" name="student" id="student-class" onfocus="myFocus()" required>
+              <option value="">Select your class</option>
+              <option value="4"> 4th</option>
+              <option value="5"> 5th</option>
+              <option value="6"> 6th</option>
+              <option value="7"> 7th</option>
+              <option value="8"> 8th</option>
+              <option value="9"> 9th</option>
+              <option value="10"> 10th</option>
+              <option value="11"> 11th</option>
+              <option value="12"> 12th</option>
+
+            </select>
+            <!-- <input placeholder="Enter your class" type="number" min="4" max="12" name="student" id="student-class" class="student"
+              required> -->
+
+
+            <label for="password">Password:</label>
+            <input onfocus="myFocus()" placeholder="Enter password" type="password" name="student" id="password"
+              class="student" required>
+
+            <input type="submit" value="Start Quiz" id="start-btn" class="btn">
           </form>
+
           <div class="starting-quiz-time" id="startingQuizTime">
             <div class="starting-quiz-time-box" id="starting-quiz-time-box">
-              
+
               <h5 class="countDown4sec" id="countDown4sec"></h5>
 
               <h5 class="star-in">Start in 5s</h5>
+
             </div>
           </div>
         </div>
       </div>
     </div>
+
+   
+
+   
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script src="./js/quiz.js"></script>
 </body>
