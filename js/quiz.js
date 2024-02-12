@@ -1,1 +1,1098 @@
-const _0x38f73a=_0xd49b;function _0xd49b(_0x50809f,_0x125ff6){const _0x393b31=_0x393b();return _0xd49b=function(_0xd49ba1,_0x95943e){_0xd49ba1=_0xd49ba1-0xa0;let _0x403a1f=_0x393b31[_0xd49ba1];return _0x403a1f;},_0xd49b(_0x50809f,_0x125ff6);}(function(_0xe5d72c,_0x5bb217){const _0x559ba4=_0xd49b,_0x51f6bf=_0xe5d72c();while(!![]){try{const _0x385d10=-parseInt(_0x559ba4(0xea))/0x1+-parseInt(_0x559ba4(0xb8))/0x2*(-parseInt(_0x559ba4(0x107))/0x3)+-parseInt(_0x559ba4(0x136))/0x4*(-parseInt(_0x559ba4(0xa6))/0x5)+parseInt(_0x559ba4(0xe5))/0x6*(parseInt(_0x559ba4(0xf4))/0x7)+-parseInt(_0x559ba4(0x126))/0x8+parseInt(_0x559ba4(0x125))/0x9*(-parseInt(_0x559ba4(0xeb))/0xa)+parseInt(_0x559ba4(0x11c))/0xb;if(_0x385d10===_0x5bb217)break;else _0x51f6bf['push'](_0x51f6bf['shift']());}catch(_0x5efa7c){_0x51f6bf['push'](_0x51f6bf['shift']());}}}(_0x393b,0x983f3));const questions=[{'que':_0x38f73a(0xa0),'a':_0x38f73a(0xdf),'b':_0x38f73a(0x124),'c':_0x38f73a(0xe3),'d':_0x38f73a(0xd8),'anomynuos':0x3,'anonymous':0x1,'anomynous':0x2,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0x13a),'a':'शालिशुका','b':_0x38f73a(0xe6),'c':_0x38f73a(0xb1),'d':_0x38f73a(0xaf),'anomynuos':0x1,'anonymous':0x4,'anomynous':0x2,'anonynous':0x3,'anonymuos':''},{'que':'लक्ष्मण\x20जी\x20को\x20किसका\x20अवतार\x20माना\x20जाता\x20है?','a':'भगवान\x20विष्णु','b':_0x38f73a(0xca),'c':_0x38f73a(0x137),'d':_0x38f73a(0xc7),'anomynuos':0x2,'anonymous':0x4,'anomynous':0x1,'anonynous':0x3,'anonymuos':'rajat'},{'que':_0x38f73a(0xb0),'a':'घटोत्कच','b':_0x38f73a(0x106),'c':_0x38f73a(0xb9),'d':_0x38f73a(0xf7),'anomynuos':0x2,'anonymous':0x3,'anomynous':0x4,'anonynous':0x1,'anonymuos':''},{'que':'राम\x20जी\x20को\x20वनवास\x20देने\x20की\x20प्रेरणा\x20कैकेयी\x20को\x20किससे\x20मिली\x20थी\x20?','a':'कैकसी','b':_0x38f73a(0x123),'c':_0x38f73a(0xd2),'d':_0x38f73a(0x127),'anomynuos':0x1,'anonymous':0x3,'anomynous':0x2,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xc2),'a':'3','b':'4','c':'2','d':'5','anomynuos':0x1,'anonymous':0x2,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xa8),'a':'3','b':'4','c':'2','d':'6','anomynuos':0x3,'anonymous':0x1,'anomynous':0x2,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0x142),'a':'1','b':'2','c':'3','d':'4','anomynuos':0x2,'anonymous':0x1,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0x119),'a':'लक्ष्मण\x20जी','b':_0x38f73a(0x10c),'c':'राम\x20जी','d':_0x38f73a(0x112),'anomynuos':0x1,'anonymous':0x3,'anomynous':0x2,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xd0),'a':'1','b':'2','c':'3','d':'4','anomynuos':0x2,'anonymous':0x1,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xc6),'a':'राम\x20जी','b':_0x38f73a(0x112),'c':_0x38f73a(0x143),'d':_0x38f73a(0x10c),'anomynuos':0x1,'anonymous':0x4,'anomynous':0x2,'anonynous':0x3,'anonymuos':''},{'que':_0x38f73a(0x11a),'a':'1','b':'2','c':'3','d':'4','anomynuos':0x1,'anonymous':0x2,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0x130),'a':_0x38f73a(0xa3),'b':_0x38f73a(0x10f),'c':'राम\x20जी,\x20लक्ष्मण\x20जी','d':_0x38f73a(0xc4),'anomynuos':0x3,'anonymous':0x4,'anomynous':0x1,'anonynous':0x2,'anonymuos':''},{'que':_0x38f73a(0xf1),'a':_0x38f73a(0xda),'b':_0x38f73a(0xe9),'c':_0x38f73a(0xad),'d':'जामवन्त','anomynuos':0x4,'anonymous':0x3,'anomynous':0x2,'anonynous':0x1,'anonymuos':''},{'que':'श्रीराम\x20जी\x20को\x20यह\x20सलाह\x20किसने\x20दी\x20थी\x20कि\x20लंका\x20से\x20सीता\x20को\x20छुड़ाने\x20के\x20लिए\x20सुग्रीव\x20से\x20मित्रता\x20की\x20जाए\x20?','a':_0x38f73a(0x140),'b':'हनुमान\x20जी','c':_0x38f73a(0x148),'d':_0x38f73a(0xa2),'anomynuos':0x4,'anonymous':0x2,'anomynous':0x3,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0x114),'a':_0x38f73a(0xf2),'b':_0x38f73a(0x104),'c':'विष्णु\x20जी','d':'सूर्य','anomynuos':0x2,'anonymous':0x3,'anomynous':0x4,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0x10b),'a':_0x38f73a(0xc3),'b':_0x38f73a(0xd3),'c':_0x38f73a(0x141),'d':_0x38f73a(0xbc),'anomynuos':0x4,'anonymous':0x3,'anomynous':0x1,'anonynous':0x2,'anonymuos':''},{'que':'\x20भरत\x20जी\x20की\x20पत्नी\x20का\x20क्या\x20नाम\x20था\x20?','a':'सुचेता','b':'उर्मिला','c':'श्रुतकीर्ति','d':'मांडवी','anomynuos':0x3,'anonymous':0x4,'anomynous':0x1,'anonynous':0x2,'anonymuos':''},{'que':'हनुमान\x20जी\x20की\x20माता\x20कौन\x20थीं\x20?','a':_0x38f73a(0x12b),'b':_0x38f73a(0xaa),'c':_0x38f73a(0x105),'d':_0x38f73a(0x11e),'anomynuos':0x1,'anonymous':0x2,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':'इनमें\x20से\x20कौन\x20लक्ष्मण\x20जी\x20की\x20पत्नी\x20थीं\x20?','a':_0x38f73a(0x127),'b':'सुलक्षणा','c':_0x38f73a(0xdd),'d':_0x38f73a(0xef),'anomynuos':0x2,'anonymous':0x1,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':'सीता\x20जी\x20किसकि\x20अवतार\x20थीं\x20?','a':_0x38f73a(0x11d),'b':_0x38f73a(0x103),'c':'सरस्वती\x20जी','d':_0x38f73a(0x117),'anomynuos':0x3,'anonymous':0x4,'anomynous':0x2,'anonynous':0x1,'anonymuos':''},{'que':'वनवास\x20काल\x20में\x20श्रीराम\x20सर्वाधिक\x20समय\x20तक\x20किस\x20स्थान\x20पर\x20ठहरे\x20थे\x20?','a':_0x38f73a(0x10e),'b':'चित्रकूट\x20में','c':_0x38f73a(0xe7),'d':_0x38f73a(0x100),'anomynuos':0x3,'anonymous':0x2,'anomynous':0x4,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0x122),'a':_0x38f73a(0xc8),'b':_0x38f73a(0xe8),'c':_0x38f73a(0xf6),'d':_0x38f73a(0xa4),'anomynuos':0x1,'anonymous':0x2,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xfe),'a':_0x38f73a(0x138),'b':_0x38f73a(0xcb),'c':_0x38f73a(0xe2),'d':_0x38f73a(0x106),'anomynuos':0x3,'anonymous':0x1,'anomynous':0x4,'anonynous':0x2,'anonymuos':''},{'que':_0x38f73a(0x12a),'a':_0x38f73a(0xc1),'b':'विश्रवा','c':_0x38f73a(0x133),'d':_0x38f73a(0x121),'anomynuos':0x1,'anonymous':0x2,'anomynous':0x3,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0x131),'a':_0x38f73a(0xfb),'b':_0x38f73a(0xff),'c':'मिथिला','d':_0x38f73a(0xd9),'anomynuos':0x1,'anonymous':0x3,'anomynous':0x2,'anonynous':0x4,'anonymuos':''},{'que':_0x38f73a(0xf0),'a':_0x38f73a(0x13b),'b':_0x38f73a(0xf8),'c':_0x38f73a(0x113),'d':'नल','anomynuos':0x2,'anonymous':0x3,'anomynous':0x4,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0x128),'a':_0x38f73a(0xe2),'b':'मय','c':_0x38f73a(0xcf),'d':_0x38f73a(0xbf),'anomynuos':0x3,'anonymous':0x4,'anomynous':0x2,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0xb5),'a':_0x38f73a(0xd7),'b':_0x38f73a(0xec),'c':_0x38f73a(0x104),'d':_0x38f73a(0xe1),'anomynuos':0x3,'anonymous':0x2,'anomynous':0x4,'anonynous':0x1,'anonymuos':''},{'que':_0x38f73a(0x108),'a':_0x38f73a(0x146),'b':_0x38f73a(0x144),'c':_0x38f73a(0xce),'d':'शिव\x20धनुष\x20भंग\x20करना','anomynuos':0x1,'anonymous':0x2,'anomynous':0x4,'anonynous':0x3,'anonymuos':''},{'que':_0x38f73a(0xd4),'a':'वाल्मीकि\x20जी','b':_0x38f73a(0xee),'c':_0x38f73a(0xbd),'d':_0x38f73a(0x120),'anomynuos':0x2,'anonymous':0x1,'anomynous':0x3,'anonynous':0x4,'anonymuos':''}];var hitonsc,lerti,hitonec=lerti;lerti=questions[0x2][_0x38f73a(0xfc)],hitonsc=lerti;let totle=questions[_0x38f73a(0x111)];const quesBoxh3=document[_0x38f73a(0x13d)](_0x38f73a(0x12e)),optionsInput=document['querySelectorAll'](_0x38f73a(0xb4)),printMinuts=document[_0x38f73a(0x13d)](_0x38f73a(0xfa)),printSecond=document['getElementById']('seconds-h'),subject=_0x38f73a(0x115),minutsValue=0x32,secondValue=0xa;let min=minutsValue,sec=0x0,index=Number(0x0);const loadQuestion=()=>{const _0x58ff20=_0x38f73a,_0x3fab13=questions[index];quesBoxh3[_0x58ff20(0x139)]='Q\x20'+(Number(index)+0x1)+'\x20.\x20'+_0x3fab13[_0x58ff20(0xdb)],optionsInput[0x1][_0x58ff20(0xc9)]['innerText']=_0x3fab13['a'],optionsInput[0x2]['nextElementSibling']['innerText']=_0x3fab13['b'],optionsInput[0x3][_0x58ff20(0xc9)][_0x58ff20(0x139)]=_0x3fab13['c'],optionsInput[0x4][_0x58ff20(0xc9)][_0x58ff20(0x139)]=_0x3fab13['d'],optionSelectIndex();};var right=0x0,wrong=0x0;let ans=[],wrongAns=[];function assing(){let _0x5bf278=getAnswer();ans[index]=_0x5bf278;};const getAnswer=()=>{const _0x4778a8=_0x38f73a;let _0x20c178;return optionsInput[_0x4778a8(0xb7)](_0x495d0b=>{const _0x1679e0=_0x4778a8;_0x495d0b[_0x1679e0(0xe4)]&&(_0x20c178=Number(_0x495d0b[_0x1679e0(0xd6)]));}),_0x20c178;},reset=()=>{optionsInput['forEach'](_0x2928da=>{_0x2928da['checked']=![];});};(function(){questions['forEach']((_0xc5371,_0x4a7c0a)=>{const _0x3e96cb=_0xd49b;var _0x4a01f5=document[_0x3e96cb(0x10d)]('option');_0x4a01f5['setAttribute']('value',_0x4a7c0a);var _0xad1992=document[_0x3e96cb(0xac)]('Q.'+(_0x4a7c0a+0x1));_0x4a01f5[_0x3e96cb(0xb6)](_0xad1992),document[_0x3e96cb(0x13d)](_0x3e96cb(0x134))[_0x3e96cb(0xb6)](_0x4a01f5);});}());let fRNotDbc=0x0;function finelResult(){const _0x5ac492=_0x38f73a;if(fRNotDbc==0x0){fRNotDbc=0x1,min=0x0,sec=0x0;for(let _0x461eb7=0x0;_0x461eb7<questions[_0x5ac492(0x111)];_0x461eb7++){ans[_0x461eb7]==questions[_0x461eb7][_0x5ac492(0xde)]?right++:(wrongAns[_0x5ac492(0xcd)](_0x461eb7+0x1),wrong++),console['log'](right),console['log'](wrong);}}};function changeRightColor(){optionsInput['forEach'](_0x1f50b3=>{const _0x164fea=_0xd49b;if(_0x1f50b3[_0x164fea(0xd6)]==questions[index][_0x164fea(0xde)]){let _0x14c32d=_0x1f50b3[_0x164fea(0x10a)];_0x14c32d[_0x164fea(0xbe)][_0x164fea(0x102)](_0x164fea(0x132));}if(_0x1f50b3[_0x164fea(0xe4)]){if(_0x1f50b3[_0x164fea(0xd6)]==questions[index]['anonymous']){let _0x38fef9=_0x1f50b3[_0x164fea(0x10a)];_0x38fef9[_0x164fea(0xbe)][_0x164fea(0x102)](_0x164fea(0x132));}else{let _0x1a1805=_0x1f50b3[_0x164fea(0x10a)];_0x1a1805[_0x164fea(0xbe)][_0x164fea(0x102)](_0x164fea(0x109));}}});};function removeRightColor(){const _0x2c794f=_0x38f73a;optionsInput[_0x2c794f(0xb7)](_0x549e91=>{const _0x21408d=_0x2c794f;if(_0x549e91['value']==questions[index][_0x21408d(0xde)]){var _0x40920e=_0x549e91[_0x21408d(0x10a)];_0x40920e['classList'][_0x21408d(0xc0)](_0x21408d(0x132));}if(_0x549e91['checked']){if(_0x549e91[_0x21408d(0xd6)]==questions[index][_0x21408d(0xde)]){let _0x76cd46=_0x549e91[_0x21408d(0x10a)];_0x76cd46[_0x21408d(0xbe)]['remove']('right-ans-bgcolor');}else{let _0x121e1e=_0x549e91['parentElement'];_0x121e1e[_0x21408d(0xbe)][_0x21408d(0xc0)]('wrong-ans-bgcolor');}}});};let submitbuttonHide=0x0,disabelTrue=0x0;const nextQues=()=>{const _0xce8546=_0x38f73a;removeRightColor(),optionSelectIndex();const _0x2665eb=document[_0xce8546(0x13d)](_0xce8546(0x12c));index==questions['length']-0x2&&submitbuttonHide==0x0&&_0x2665eb[_0xce8546(0xbe)]['add'](_0xce8546(0xa5));;if(index<questions['length']-0x1){index++,console['log'](index);for(var _0x6afcd4=0x0;_0x6afcd4<questions[_0xce8546(0x111)];_0x6afcd4++){for(var _0x58654c=0x0;_0x58654c<questions[_0xce8546(0x111)];_0x58654c++){if(index==_0x58654c)optionsInput[ans[_0x58654c]||0x0]['checked']=!![];else index==questions[_0xce8546(0x111)]&&reset();}};loadQuestion();};disabelTrue==0x1&&optionsInput[_0xce8546(0xb7)](_0x591582=>{const _0x4a6b26=_0xce8546;_0x591582['checked']?_0x591582['disabled']=![]:_0x591582[_0x4a6b26(0x129)]=!![];});},previousQues=()=>{const _0x3634be=_0x38f73a;removeRightColor(),optionSelectIndex();const _0xd3ee4c=document[_0x3634be(0x13d)](_0x3634be(0x12c));index<=questions['length']-0x1&&_0xd3ee4c['classList'][_0x3634be(0xc0)](_0x3634be(0xa5));;if(index>0x0){index--;for(var _0x4d56b3=0x0;_0x4d56b3<questions[_0x3634be(0x111)];_0x4d56b3++){for(var _0x55f63d=0x0;_0x55f63d<questions[_0x3634be(0x111)];_0x55f63d++){if(index==_0x55f63d)optionsInput[ans[_0x55f63d]||0x0][_0x3634be(0xe4)]=!![];else index==questions['length']&&reset();}};loadQuestion();};disabelTrue==0x1&&optionsInput['forEach'](_0x1941c2=>{const _0x443755=_0x3634be;_0x1941c2[_0x443755(0xe4)]?_0x1941c2['disabled']=![]:_0x1941c2['disabled']=!![];});;};function getQuesNum(){const _0x2e9641=_0x38f73a;removeRightColor();var _0x465e0f=document[_0x2e9641(0x13d)](_0x2e9641(0x134))[_0x2e9641(0xd6)];index=_0x465e0f;index==questions[_0x2e9641(0x111)]-0x1&&submitbuttonHide==0x0?document[_0x2e9641(0x13d)](_0x2e9641(0x12c))['classList'][_0x2e9641(0x102)]('submit-btn-display'):document[_0x2e9641(0x13d)](_0x2e9641(0x12c))['classList']['remove'](_0x2e9641(0xa5));;for(var _0x18f660=0x0;_0x18f660<questions['length'];_0x18f660++){for(var _0x42ca11=0x0;_0x42ca11<questions[_0x2e9641(0x111)];_0x42ca11++){if(index==_0x42ca11)optionsInput[ans[_0x42ca11]||0x0][_0x2e9641(0xe4)]=!![];else index==questions[_0x2e9641(0x111)]&&reset();}};disabelTrue==0x1&&optionsInput['forEach'](_0x137ccb=>{const _0x153780=_0x2e9641;_0x137ccb['checked']?_0x137ccb['disabled']=![]:_0x137ccb[_0x153780(0x129)]=!![];});;loadQuestion();};function optionSelectIndex(){var _0x2a8c03=document['getElementById']('getQuesNum');_0x2a8c03['selectedIndex']=index;};function countdown(){const _0x5b119f=_0x38f73a;sec===0x0&&(sec=secondValue,min--);;sec--;min<0xa?printMinuts[_0x5b119f(0xae)]='0'+min:printMinuts['innerHTML']=min;;sec<0xa?printSecond[_0x5b119f(0xae)]='0'+sec:printSecond[_0x5b119f(0xae)]=sec;;};let startTimeMin=0x1,startTimeSec=0x0;const startButton=document[_0x38f73a(0x13d)](_0x38f73a(0xb3)),startTimeDisply=document[_0x38f73a(0x13d)](_0x38f73a(0x13c));function countstartTime(){startTimeSec===0x0&&(startTimeSec=0x6,startTimeMin--);;startTimeSec--,startTimeDisply['innerHTML']=startTimeSec,console['log'](startTimeSec);};const startQuizBtn=document['getElementById'](_0x38f73a(0xd1)),displayques=document['getElementById'](_0x38f73a(0x147));startButton[_0x38f73a(0xbb)](_0x38f73a(0xe0),startQuiz);function startQuiz(){const _0x52d89c=_0x38f73a;studentname=document[_0x52d89c(0x13d)](_0x52d89c(0x11f))[_0x52d89c(0xd6)][_0x52d89c(0xa9)](),studentclass=document[_0x52d89c(0x13d)]('student-class')[_0x52d89c(0xd6)],timerDispVisb=document[_0x52d89c(0x13d)]('timer-displayId');let _0x115b5e=document[_0x52d89c(0x13d)](_0x52d89c(0x12d))['value'];if(studentname[_0x52d89c(0x111)]>0x14||studentname===''||Number(studentname)===Number(studentname)||studentname[_0x52d89c(0xf9)]('0')||studentname[_0x52d89c(0xf9)]('1')||studentname[_0x52d89c(0xf9)]('2')||studentname[_0x52d89c(0xf9)]('3')||studentname['includes']('4')||studentname[_0x52d89c(0xf9)]('5')||studentname[_0x52d89c(0xf9)]('6')||studentname[_0x52d89c(0xf9)]('7')||studentname[_0x52d89c(0xf9)]('8')||studentname[_0x52d89c(0xf9)]('9'))document[_0x52d89c(0x13d)]('start-btn')[_0x52d89c(0xd6)]='Incorrect\x20Name',document[_0x52d89c(0x13d)](_0x52d89c(0x11f))[_0x52d89c(0x13e)]='Please\x20enter\x20correct\x20name\x20!\x20(NaN)\x20';else{if(studentclass===''||studentclass<0x4||studentclass>0xc)document['getElementById'](_0x52d89c(0xdc))[_0x52d89c(0x13e)]=_0x52d89c(0xfd);else{if(_0x115b5e===hitonsc){document[_0x52d89c(0x13d)](_0x52d89c(0xc5))['classList'][_0x52d89c(0x102)]('starting-quiz-time-diplayVis');const _0x5587ab=setInterval(()=>{const _0x3e5fd1=_0x52d89c;startTimeSec===0x0&&startTimeMin===0x0?(startTimeDisply[_0x3e5fd1(0xae)]=startTimeSec,clearInterval(_0x5587ab),console[_0x3e5fd1(0xf3)](_0x5587ab)):countstartTime();},0x3e8);setTimeout(()=>{const _0x4a0642=_0x52d89c;startQuizBtn[_0x4a0642(0xbe)][_0x4a0642(0x102)](_0x4a0642(0xab)),displayques[_0x4a0642(0xbe)][_0x4a0642(0x102)](_0x4a0642(0x145)),timerDispVisb['classList']['add'](_0x4a0642(0x110)),document[_0x4a0642(0x13d)](_0x4a0642(0x12e))[_0x4a0642(0xbe)]['add'](_0x4a0642(0x12e)),loadQuestion();},0x1770);const _0x1e3451=setInterval(()=>{const _0xbda8a0=_0x52d89c;min===0x0&&sec===0x0?(document[_0xbda8a0(0x13d)](_0xbda8a0(0xfa))[_0xbda8a0(0xae)]='0'+min,document[_0xbda8a0(0x13d)]('seconds-h')[_0xbda8a0(0xae)]='0'+sec,timerDispVisb[_0xbda8a0(0xbe)][_0xbda8a0(0xc0)](_0xbda8a0(0x110)),fRNotDbc==0x0&&finelResult(),endQuiz(),clearInterval(_0x1e3451)):(setTimeout(countdown,0x1770),console['log'](_0x1e3451));;},0x3e8);}else document[_0x52d89c(0x13d)]('start-btn')[_0x52d89c(0xd6)]=_0x52d89c(0x135),document[_0x52d89c(0x13d)]('password')[_0x52d89c(0x13e)]=_0x52d89c(0xa7);}}};function myFocus(){const _0x4cee2c=_0x38f73a;document[_0x4cee2c(0x13d)]('start-btn')['value']=_0x4cee2c(0x11b);};const getResult=document[_0x38f73a(0x13d)](_0x38f73a(0xba)),checkAnswer=document['getElementById'](_0x38f73a(0xd5));function checkAnswers(){const _0x7db14f=_0x38f73a;index=0x0,removeRightColor(),submitbuttonHide=0x1,disabelTrue=0x1,getResult[_0x7db14f(0xbe)]['remove'](_0x7db14f(0xa1)),displayques[_0x7db14f(0xbe)][_0x7db14f(0x102)](_0x7db14f(0x145)),document['getElementById'](_0x7db14f(0x12c))[_0x7db14f(0xbe)][_0x7db14f(0xc0)](_0x7db14f(0xa5));for(var _0x46f3cf=0x0;_0x46f3cf<questions[_0x7db14f(0x111)];_0x46f3cf++){for(var _0x46d2fe=0x0;_0x46d2fe<questions[_0x7db14f(0x111)];_0x46d2fe++){if(index==_0x46d2fe)optionsInput[ans[_0x46d2fe]||0x0][_0x7db14f(0xe4)]=!![];else index==questions['length']&&reset();}};loadQuestion(),optionsInput[_0x7db14f(0xb7)](_0x5b234d=>{const _0x40970f=_0x7db14f;_0x5b234d[_0x40970f(0xe4)]?_0x5b234d[_0x40970f(0x129)]=![]:_0x5b234d[_0x40970f(0x129)]=!![];}),document[_0x7db14f(0x13d)](_0x7db14f(0xf5))[_0x7db14f(0xbe)]['add'](_0x7db14f(0xb2)),setInterval(changeRightColor,0x1f4);};function goToResult(){const _0x48163a=_0x38f73a;removeRightColor(),index=0x0,getResult[_0x48163a(0xbe)]['add'](_0x48163a(0xa1)),displayques[_0x48163a(0xbe)][_0x48163a(0xc0)](_0x48163a(0x145)),document[_0x48163a(0x13d)](_0x48163a(0xf5))[_0x48163a(0xbe)][_0x48163a(0xc0)](_0x48163a(0xb2)),document[_0x48163a(0x13d)](_0x48163a(0x12e))[_0x48163a(0xae)]=_0x48163a(0xed);};const endQuiz=()=>{const _0xa03fe8=_0x38f73a;let _0x50a4d4=wrongAns['join']();displayques[_0xa03fe8(0xbe)][_0xa03fe8(0xc0)](_0xa03fe8(0x145)),getResult[_0xa03fe8(0xbe)][_0xa03fe8(0x102)]('getResult-display'),document['getElementById']('quesBoxh3')[_0xa03fe8(0xae)]=_0xa03fe8(0x116),document[_0xa03fe8(0x13d)](_0xa03fe8(0xcc))['innerHTML']='<h3\x20style=\x22color:#dec496;\x20padding-left:10px;\x22>\x20\x20Student\x20Name\x20:\x20<span\x20style=\x22color:#ffffff;\x22>'+studentname+'</span>\x20<br>\x20Class\x20:\x20<span\x20style=\x22color:#ffffff;\x22>'+studentclass+'th\x20</span><br><br>\x20Subject\x20:\x20(<span\x20style=\x22color:#ffffff;\x22>\x20'+subject+'\x20</span>)\x20</h3>\x20\x0a\x20\x20\x20\x20\x20<h2\x20class=\x22thanks\x22\x20style=\x22color:#dec496;\x20\x20padding-left:10px;\x22>\x20[\x20<span\x20style=\x22color:#ffffff;\x22>'+right+'\x20/\x20'+totle+_0xa03fe8(0x118)+wrong+'</span>\x20)\x20<br><br>\x20Question\x20No:\x20<br>(\x20<span\x20style=\x22display:\x20block;color:#afafaf;width:\x20100%;overflow:\x20hidden;font-size:\x2011px;\x22>'+_0x50a4d4+_0xa03fe8(0x13f);};function _0x393b(){const _0x4a6ed4=['submit-btn-display','20MDukan','!\x20Please\x20enter\x20correct\x20password','राजा\x20दशरथ\x20जी\x20की\x20कितनी\x20पत्नियाँ\x20थीं?','toUpperCase','अंजनी','welcomeDisplayNone','createTextNode','गरुड़\x20देव','innerHTML','दशरथ\x20','\x20राम\x20भक्त\x20हनुमान\x20जी\x20के\x20पुत्र\x20का\x20क्या\x20नाम\x20है\x20?','राजाधिराज','got-to-result-display','start-btn','.options','लंका\x20जाने\x20हेतु\x20समुद्र\x20पर\x20सेतु\x20बाँधते\x20समय\x20श्रीराम\x20जी\x20ने\x20किस\x20देवता\x20की\x20आराधना\x20की\x20थी\x20?','appendChild','forEach','4xgWVHx','मकरध्वज','getResult','addEventListener','गंधमादन','भरद्वाज\x20जी','classList','विश्वकर्मा','remove','पुलस्त्य','श्रीराम\x20कुल\x20कितने\x20भाई\x20थे?','कैलास','शत्रुधन\x20जी,\x20लक्ष्मण\x20जी','startingQuizTime','मां\x20कैकेयी\x20के\x20पुत्र\x20का\x20क्या\x20नाम\x20है','शेषनाग','कुबेर','nextElementSibling','भगवान\x20शिव','हयग्रीव','getResult-box','push','सीता\x20जी\x20की\x20पसंद','इन्द्र','मां\x20कैकेयी\x20के\x20कितने\x20पुत्र\x20थे?','welcome','मन्थरा','सुमेरु','निम्न\x20में\x20से\x20किस\x20ऋषि\x20ने\x20सीताजी\x20की\x20शुद्धता\x20का\x20दावा\x20किया\x20था\x20?','checkAns','value','विष्णु\x20जी','कलियुग','अयोध्या','जटायु','que','student-class','मांडवी','anonymous','त्रेतायुग','click','वरुण\x20जी','बालि','द्वापरयुग','checked','582uVROqy','बृहद्रथ','\x20भरद्वाज\x20के\x20आश्रम\x20में','\x20वायु\x20देव','सम्पाती','256273ldSCGW','620zUmKQc','शिव\x20जी','\x20Thank\x20you\x20for\x20attempt\x20the\x20Quiz\x20.','विश्वामित्र\x20जी','श्रुतकीर्ति','श्रीराम\x20जी\x20के\x20वनवास\x20से\x20लौटकर\x20आने\x20की\x20सूचना\x20भरत\x20को\x20किसने\x20दी\x20थी\x20?','\x20लक्ष्मण\x20जी\x20को\x20नागपाश\x20से\x20मुक्त\x20किसने\x20किया\x20था\x20?','देवराज\x20इन्द्र','log','7539XDVtWy','got-to-result','धर्म','अंगद','अंगद\x20जी','includes','minuts-h','अलकापुरी','anonymuos','!\x20Please\x20enter\x20Class\x204\x20to\x2012\x20\x20','रामभक्त\x20हनुमान\x20जी\x20के\x20पिता\x20कौन\x20थे\x20?','केकय','\x20किष्किंधा\x20में','translate','add','शक्ति','ब्रह्मा\x20जी','कृतिका','सुग्रीव','165603tMDPHX','सीता\x20जी\x20के\x20स्वयंवर\x20की\x20क्या\x20शर्त\x20थी\x20?','wrong-ans-bgcolor','parentElement','\x20लंका\x20नगरी\x20किस\x20पर्वत\x20पर\x20स्थित\x20थी\x20?','भरत\x20जी','createElement','समुद्र\x20तट\x20पर','राम\x20जी,\x20भरत\x20जी','timer-display-vis','length','शत्रुधन\x20जी','हनुमान\x20जी','श्रीराम\x20______\x20अंशावतार\x20थे\x20?','Science','\x0a<span\x20style=\x22font-size:23px;\x22>Thank\x20you\x20for\x20attempt\x20the\x20Quiz\x20.</span>','लक्ष्मी\x20जी','</span>\x20]\x20<br>\x0a\x20\x20\x20\x20(\x20Are\x20correct\x20answers\x20)\x20<br>\x20&\x20\x20<br>(\x20Incorrect\x20answer\x20:\x20<span\x20style=\x22color:#ff0000d6;\x22>','मां\x20कौशल्या\x20के\x20पुत्र\x20का\x20क्या\x20नाम\x20है','मां\x20सुमित्रा\x20के\x20कितने\x20पुत्र\x20थे?','Start\x20Quiz','19295991ClTUOm','सती','अहल्या','student-name','परशुराम\x20जी','सुमाली','हनुमान\x20जी\x20किसके\x20अंश\x20से\x20उत्पन्न\x20हुए\x20थे\x20?','मंदोदरी','सत्ययुग','102195epgvVX','9607056AuqLHw','उर्मिला','वानर\x20नल\x20के\x20पिता\x20कौन\x20थे\x20?','disabled','लंकापति\x20रावण\x20किसका\x20पुत्र\x20था\x20?','सुलक्षणा','submitAtLast','password','quesBoxh3','google_translate_element','मां\x20सुमित्रा\x20के\x20पुत्रो\x20का\x20क्या\x20नाम\x20है','जनक\x20जी\x20कहाँ\x20के\x20राजा\x20थे\x20?','right-ans-bgcolor','अहिरावण','getQuesNum','Incorrect\x20Password','815716AvWQXk','भगवान\x20ब्रह्मा','केसरी','innerText','भगवान\x20राम\x20जी\x20के\x20पिता\x20का\x20नाम\x20क्या\x20था?','विनत\x20जी','countDown4sec','getElementById','placeholder','</span>\x20)\x20</h2>','मारीच','त्रिकूट','मां\x20कौशल्या\x20के\x20कितने\x20पुत्र\x20थे?','लक्ष्मण\x20जी','शिव\x20जी\x20का\x20धनुष\x20उठाना','quesDisplayVis','जनक\x20को\x20पराजित\x20करना','quesLoader','नील','रामायण\x20जिस\x20युग\x20से\x20सम्बन्धित\x20है,\x20उसका\x20क्या\x20नाम\x20है\x20?','getResult-display','शबरी','भरत\x20जी,\x20शत्रुधन\x20जी','अश्विनीकुमार'];_0x393b=function(){return _0x4a6ed4;};return _0x393b();}function googleTranslateElementInit(){const _0x573088=_0x38f73a;new google[(_0x573088(0x101))]['TranslateElement']({'pageLanguage':'en'},_0x573088(0x12f));};
+const questions = [{
+  "que": "रामायण जिस युग से सम्बन्धित है, उसका क्या नाम है ?",
+  "a": "त्रेतायुग",
+  "b": "सत्ययुग",
+  "c": "द्वापरयुग",
+  "d": "कलियुग",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+{
+  "que": "भगवान राम जी के पिता का नाम क्या था?",
+  "a": "शालिशुका",
+  "b": "बृहद्रथ",
+  "c": "राजाधिराज",
+  "d": "दशरथ ",
+  "anomynuos": 1,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+{
+  "que": "लक्ष्मण जी को किसका अवतार माना जाता है?",
+  "a": "भगवान विष्णु",
+  "b": "भगवान शिव",
+  "c": "भगवान ब्रह्मा",
+  "d": "शेषनाग",
+  "anomynuos": 2,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 3,
+  "anonymuos": "rajat"
+},
+
+
+{
+  "que": " राम भक्त हनुमान जी के पुत्र का क्या नाम है ?",
+  "a": "घटोत्कच",
+  "b": "सुग्रीव",
+  "c": "मकरध्वज",
+  "d": "अंगद",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+
+
+
+{
+  "que": "राम जी को वनवास देने की प्रेरणा कैकेयी को किससे मिली थी ?",
+  "a": "कैकसी",
+  "b": "मंदोदरी",
+  "c": "मन्थरा",
+  "d": "उर्मिला",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "श्रीराम कुल कितने भाई थे?",
+  "a": "3",
+  "b": "4",
+  "c": "2",
+  "d": "5",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "राजा दशरथ जी की कितनी पत्नियाँ थीं?",
+  "a": "3",
+  "b": "4",
+  "c": "2",
+  "d": "6",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "मां कौशल्या के कितने पुत्र थे?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "मां कौशल्या के पुत्र का क्या नाम है",
+  "a": "लक्ष्मण जी",
+  "b": "भरत जी",
+  "c": "राम जी",
+  "d": "शत्रुधन जी",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "मां कैकेयी के कितने पुत्र थे?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "मां कैकेयी के पुत्र का क्या नाम है",
+  "a": "राम जी",
+  "b": "शत्रुधन जी",
+  "c": "लक्ष्मण जी",
+  "d": "भरत जी",
+  "anomynuos": 1,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+{
+  "que": "मां सुमित्रा के कितने पुत्र थे?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+{
+  "que": "मां सुमित्रा के पुत्रो का क्या नाम है",
+  "a": "भरत जी, शत्रुधन जी",
+  "b": "राम जी, भरत जी",
+  "c": "राम जी, लक्ष्मण जी",
+  "d": "शत्रुधन जी, लक्ष्मण जी",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+{
+  "que": " लक्ष्मण जी को नागपाश से मुक्त किसने किया था ?",
+  "a": "जटायु",
+  "b": "सम्पाती",
+  "c": "गरुड़ देव",
+  "d": "जामवन्त",
+  "anomynuos": 4,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "श्रीराम जी को यह सलाह किसने दी थी कि लंका से सीता को छुड़ाने के लिए सुग्रीव से मित्रता की जाए ?",
+  "a": "मारीच",
+  "b": "हनुमान जी",
+  "c": "नील",
+  "d": "शबरी",
+  "anomynuos": 4,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "श्रीराम ______ अंशावतार थे ?",
+  "a": "देवराज इन्द्र",
+  "b": "ब्रह्मा जी",
+  "c": "विष्णु जी",
+  "d": "सूर्य",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": " लंका नगरी किस पर्वत पर स्थित थी ?",
+  "a": "कैलास",
+  "b": "सुमेरु",
+  "c": "त्रिकूट",
+  "d": "गंधमादन",
+  "anomynuos": 4,
+  "anonymous": 3,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": " भरत जी की पत्नी का क्या नाम था ?",
+  "a": "सुचेता",
+  "b": "उर्मिला",
+  "c": "श्रुतकीर्ति",
+  "d": "मांडवी",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "हनुमान जी की माता कौन थीं ?",
+  "a": "सुलक्षणा",
+  "b": "अंजनी",
+  "c": "कृतिका",
+  "d": "अहल्या",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "इनमें से कौन लक्ष्मण जी की पत्नी थीं ?",
+  "a": "उर्मिला",
+  "b": "सुलक्षणा",
+  "c": "मांडवी",
+  "d": "श्रुतकीर्ति",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "सीता जी किसकि अवतार थीं ?",
+  "a": "सती",
+  "b": "शक्ति",
+  "c": "सरस्वती जी",
+  "d": "लक्ष्मी जी",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "वनवास काल में श्रीराम सर्वाधिक समय तक किस स्थान पर ठहरे थे ?",
+  "a": "समुद्र तट पर",
+  "b": "चित्रकूट में",
+  "c": " भरद्वाज के आश्रम में",
+  "d": " किष्किंधा में",
+  "anomynuos": 3,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "हनुमान जी किसके अंश से उत्पन्न हुए थे ?",
+  "a": "कुबेर",
+  "b": " वायु देव",
+  "c": "धर्म",
+  "d": "अश्विनीकुमार",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "रामभक्त हनुमान जी के पिता कौन थे ?",
+  "a": "केसरी",
+  "b": "हयग्रीव",
+  "c": "बालि",
+  "d": "सुग्रीव",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 4,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "लंकापति रावण किसका पुत्र था ?",
+  "a": "पुलस्त्य",
+  "b": "विश्रवा",
+  "c": "अहिरावण",
+  "d": "सुमाली",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "जनक जी कहाँ के राजा थे ?",
+  "a": "अलकापुरी",
+  "b": "केकय",
+  "c": "मिथिला",
+  "d": "अयोध्या",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "श्रीराम जी के वनवास से लौटकर आने की सूचना भरत को किसने दी थी ?",
+  "a": "विनत जी",
+  "b": "अंगद जी",
+  "c": "हनुमान जी",
+  "d": "नल",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "वानर नल के पिता कौन थे ?",
+  "a": "बालि",
+  "b": "मय",
+  "c": "इन्द्र",
+  "d": "विश्वकर्मा",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "लंका जाने हेतु समुद्र पर सेतु बाँधते समय श्रीराम जी ने किस देवता की आराधना की थी ?",
+  "a": "विष्णु जी",
+  "b": "शिव जी",
+  "c": "ब्रह्मा जी",
+  "d": "वरुण जी",
+  "anomynuos": 3,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "सीता जी के स्वयंवर की क्या शर्त थी ?",
+  "a": "जनक को पराजित करना",
+  "b": "शिव जी का धनुष उठाना",
+  "c": "सीता जी की पसंद",
+  "d": "शिव धनुष भंग करना",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "निम्न में से किस ऋषि ने सीताजी की शुद्धता का दावा किया था ?",
+  "a": "वाल्मीकि जी",
+  "b": "विश्वामित्र जी",
+  "c": "भरद्वाज जी",
+  "d": "परशुराम जी",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+}
+
+];
+
+
+
+
+
+var hitonsc, lerti;
+var hitonec = lerti;
+lerti = questions[2]["anonymuos"];
+hitonsc = lerti;
+let totle = questions.length;
+
+const quesBoxh3 = document.getElementById("quesBoxh3");
+const optionsInput = document.querySelectorAll(".options");
+
+const printMinuts = document.getElementById('minuts-h');
+const printSecond = document.getElementById('seconds-h');
+
+const subject = "Science";
+const minutsValue = 50; // minuts ko idhar se change karte hai//
+const secondValue = 10; // idhar se ham sec ko value denge
+let min = minutsValue;
+let sec = 0; // ye hamesa 0 hi rahega//
+
+
+let index = Number(0);
+
+
+
+// const searchQues = document.getElementById("goQues")
+// searchQues.addEventListener("click", getQuesNum );
+// searchQues.addEventListener("click", nextQues)
+
+
+const loadQuestion = () => {
+
+
+const data = questions[index];
+quesBoxh3.innerText = `Q ${Number(index)+1} . ${data.que}`;
+
+
+optionsInput[1].nextElementSibling.innerText = data.a;
+optionsInput[2].nextElementSibling.innerText = data.b;
+optionsInput[3].nextElementSibling.innerText = data.c;
+optionsInput[4].nextElementSibling.innerText = data.d;
+
+optionSelectIndex()
+
+};
+
+
+var right = 0,
+wrong = 0;
+
+let ans = [];
+let wrongAns = [];
+//note:agar kewal time khatam hone par result chahiye to  css me .submit-btn-display ko coment kar denge// 
+
+
+
+
+
+
+
+
+function assing() {
+let studentValue = getAnswer();
+ans[index] = studentValue;
+};
+
+const getAnswer = () => {
+let result;
+optionsInput.forEach((input) => {
+
+  if (input.checked) {
+    result = Number(input.value)
+  }
+})
+return result;
+};
+
+
+const reset = () => {
+optionsInput.forEach((input) => {
+  input.checked = false;
+})
+};
+
+
+
+(function () {
+questions.forEach((value, i) => {
+
+  var options = document.createElement("option");
+  options.setAttribute("value", i)
+
+  var optionText = document.createTextNode(`Q.${i+1}`)
+
+  options.appendChild(optionText);
+
+  document.getElementById("getQuesNum").appendChild(options)
+
+})
+
+})();
+
+let fRNotDbc = 0;
+
+function finelResult() {
+
+if (fRNotDbc == 0) {
+  fRNotDbc = 1;
+  min = 0;
+  sec = 0;
+
+
+  for (let i = 0; i < questions.length; i++) {
+
+    if (ans[i] == questions[i]["anonymous"]) {
+      right++
+
+    } else {
+      wrongAns.push(i + 1)
+      wrong++
+    }
+    console.log(right)
+    console.log(wrong)
+  }
+
+}
+
+
+
+};
+
+
+
+
+function changeRightColor() {
+optionsInput.forEach((getElement) => {
+  if (getElement.value == questions[index]["anonymous"]) {
+    let parents = getElement.parentElement;
+    parents.classList.add("right-ans-bgcolor");
+  }
+
+  if (getElement.checked) {
+    if (getElement.value == questions[index]["anonymous"]) {
+      let parents = getElement.parentElement;
+      parents.classList.add("right-ans-bgcolor");
+    } else {
+      let parents = getElement.parentElement;
+      parents.classList.add("wrong-ans-bgcolor");
+    }
+
+  }
+
+})
+};
+
+
+
+function removeRightColor() {
+optionsInput.forEach((getElement) => {
+  if (getElement.value == questions[index]["anonymous"]) {
+    var parents = getElement.parentElement;
+    parents.classList.remove("right-ans-bgcolor");
+  }
+
+  if (getElement.checked) {
+    if (getElement.value == questions[index]["anonymous"]) {
+      let parents = getElement.parentElement;
+      parents.classList.remove("right-ans-bgcolor");
+    } else {
+      let parents = getElement.parentElement;
+      parents.classList.remove("wrong-ans-bgcolor");
+    }
+
+  }
+
+})
+};
+
+
+
+
+
+
+
+// function visibSubmitBtn(){
+// if(index == questions.length-2){
+
+// submitButton.classList.add("submit-btn-display");
+// }}
+let submitbuttonHide = 0;
+let disabelTrue = 0;
+
+
+const nextQues = () => {
+
+removeRightColor();
+optionSelectIndex();
+
+// document.getElementById("getQuesNum").value = "";
+const submitButton = document.getElementById("submitAtLast");
+
+// Submit button display visibla//
+
+if (index == questions.length - 2 && submitbuttonHide == 0) {
+  submitButton.classList.add("submit-btn-display");
+};
+
+
+
+
+if (index < questions.length - 1) {
+  index++
+  console.log(index)
+  // loadQuestion()
+
+  //----------------------------------------------------
+
+  for (var i = 0; i < questions.length; i++) {
+    for (var x = 0; x < questions.length; x++) {
+      if (index == x) {
+        // optionsInput[4].checked = true
+        optionsInput[ans[x] || 0].checked = true;
+
+      } else if (index == questions.length) {
+        reset()
+      }
+    }
+  };
+
+
+
+  loadQuestion()
+  // if (index == 0) {
+  //   optionsInput[4].checked = true
+  //   optionsInput[ans[0]].checked = true;
+
+  // } else if (index == 1) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[1]].checked = true;
+
+  // } else if (index == 2) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[2]].checked = true;
+
+  // } else if (index == 3) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[3]].checked = true;
+
+  // } else if (index == 4) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[4]].checked = true;
+
+  // } else if (index == 5) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[5]].checked = true;
+
+  // } else if (index == 6) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[6]].checked = true;
+
+  // } else if (index == 7) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[7]].checked = true;
+
+  // } else {
+  //   reset()
+  // }
+};
+
+
+if (disabelTrue == 1) {
+  optionsInput.forEach((options) => {
+    if (options.checked) {
+      options.disabled = false;
+    } else {
+      options.disabled = true;
+    }
+  })
+}
+
+
+};
+
+const previousQues = () => {
+removeRightColor();
+optionSelectIndex();
+
+
+const submitButton = document.getElementById("submitAtLast");
+
+if (index <= questions.length - 1) {
+  submitButton.classList.remove("submit-btn-display")
+};
+
+if (index > 0) {
+  index--;
+
+  // loadQuestion()
+
+  for (var i = 0; i < questions.length; i++) {
+    for (var x = 0; x < questions.length; x++) {
+      if (index == x) {
+        // optionsInput[4].checked = true
+        optionsInput[ans[x] || 0].checked = true;
+      } else if (index == questions.length) {
+        reset()
+      }
+
+    }
+  };
+
+
+  loadQuestion();
+
+  // if (index == 0) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[0]].checked = true;
+
+  // } else if (index == 1) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[1]].checked = true;
+
+  // } else if (index == 2) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[2]].checked = true;
+
+  // } else if (index == 3) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[3]].checked = true;
+
+  // } else if (index == 4) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[4]].checked = true;
+
+  // } else if (index == 5) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[5]].checked = true;
+
+  // } else if (index == 6) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[6]].checked = true;
+
+  // } else if (index == 7) {
+  //   optionsInput[4].checked = true;
+  //   optionsInput[ans[7]].checked = true;
+
+  // } else {
+  //   reset()
+  // }
+};
+
+if (disabelTrue == 1) {
+  optionsInput.forEach((options) => {
+    if (options.checked) {
+      options.disabled = false;
+    } else {
+      options.disabled = true;
+    }
+  })
+};
+
+
+};
+
+
+function getQuesNum() {
+
+removeRightColor()
+var selectvalue = document.getElementById("getQuesNum").value;
+index = selectvalue;
+
+
+
+if (index == questions.length - 1 && submitbuttonHide == 0) {
+  document.getElementById("submitAtLast").classList.add("submit-btn-display");
+
+} else {
+  document.getElementById("submitAtLast").classList.remove("submit-btn-display");
+};
+
+
+
+for (var i = 0; i < questions.length; i++) {
+  for (var x = 0; x < questions.length; x++) {
+    if (index == x) {
+      // optionsInput[4].checked = true
+      optionsInput[ans[x] || 0].checked = true;
+
+    } else if (index == questions.length) {
+      reset()
+    }
+  }
+};
+
+
+if (disabelTrue == 1) {
+  optionsInput.forEach((options) => {
+    if (options.checked) {
+      options.disabled = false;
+    } else {
+      options.disabled = true;
+    }
+  })
+};
+
+loadQuestion();
+};
+
+
+function optionSelectIndex() {
+var selectvalue2 = document.getElementById("getQuesNum");
+selectvalue2.selectedIndex = index;
+};
+
+
+
+
+
+// countDownQuiz Timing///
+function countdown() {
+if (sec === 0) {
+  sec = secondValue;
+  min--;
+};
+
+sec--;
+
+if (min < 10) {
+  printMinuts.innerHTML = "0" + min;
+} else {
+  printMinuts.innerHTML = min;
+};
+
+if (sec < 10) {
+  printSecond.innerHTML = "0" + sec;
+} else {
+  printSecond.innerHTML = sec;
+};
+
+};
+
+
+// startTimeDisply /// // for Start Timing
+
+let startTimeMin = 1; // minuts ko idhar se change karte hai//
+let startTimeSec = 0; // ye hamesa 0 hi rahega//
+const startButton = document.getElementById("start-btn");
+const startTimeDisply = document.getElementById("countDown4sec");
+
+function countstartTime() {
+if (startTimeSec === 0) {
+  startTimeSec = 6; // idhar se ham sec ko value denge
+  startTimeMin--;
+};
+
+startTimeSec--;
+startTimeDisply.innerHTML = startTimeSec; //print start in seccond//
+console.log(startTimeSec)
+};
+
+const startQuizBtn = document.getElementById("welcome");
+const displayques = document.getElementById("quesLoader"); // main question loader //
+
+
+
+// for only onec call startButton //|| 
+// function onecCallBtn() {
+//   startButton.removeEventListener('click', startQuiz);
+// }
+startButton.addEventListener('click', startQuiz);
+// startButton.addEventListener('click', onecCallBtn);
+
+
+
+// startButton /// 
+function startQuiz() {
+studentname = document.getElementById("student-name").value.toUpperCase();
+
+studentclass = document.getElementById("student-class").value;
+
+timerDispVisb = document.getElementById("timer-displayId");
+
+
+
+let docum = document.getElementById("password").value;
+
+if (studentname.length > 20 || studentname === "" ||
+  Number(studentname) === Number(studentname) ||
+  studentname.includes("0") || studentname.includes("1") ||
+  studentname.includes("2") || studentname.includes("3") ||
+  studentname.includes("4") || studentname.includes("5") ||
+  studentname.includes("6") || studentname.includes("7") ||
+  studentname.includes("8") || studentname.includes("9")) {
+  // console.log("Enter correct name")
+  document.getElementById("start-btn").value = "Incorrect Name";
+  document.getElementById("student-name").placeholder = "Please enter correct name ! (NaN) ";
+
+
+
+} else if (studentclass === "" || studentclass < 4 || studentclass > 12) {
+  // console.log("Enter correct class")
+
+  document.getElementById("student-class").placeholder = "! Please enter Class 4 to 12  ";
+
+
+
+} else if (docum === hitonsc) {
+
+  document.getElementById('startingQuizTime').classList.add("starting-quiz-time-diplayVis");
+
+  // for StartQuiz Timing
+
+  const intervalStartQz = setInterval(() => {
+    if (startTimeSec === 0 && startTimeMin === 0) {
+      startTimeDisply.innerHTML = startTimeSec; //print 0 on start buttton//
+      clearInterval(intervalStartQz)
+      console.log(intervalStartQz)
+    } else {
+      countstartTime();
+
+    }
+  }, 1000); //har 1s calling
+
+
+  //------------------------------------------
+
+  setTimeout(() => {
+
+    startQuizBtn.classList.add("welcomeDisplayNone");
+    displayques.classList.add("quesDisplayVis");
+    timerDispVisb.classList.add("timer-display-vis");
+    document.getElementById("quesBoxh3").classList.add("quesBoxh3");
+    loadQuestion();
+
+
+  }, 6000); //har 1s calling
+
+
+
+  //--------------------------------------------------------------
+
+
+  //for QuizSubmit Timing
+  const intervalQuiz = setInterval(() => {
+    if (min === 0 && sec === 0) {
+
+      document.getElementById('minuts-h').innerHTML = "0" + min;
+      document.getElementById('seconds-h').innerHTML = "0" + sec;
+      timerDispVisb.classList.remove("timer-display-vis");
+
+      if (fRNotDbc == 0) {
+        finelResult()
+      }
+      endQuiz();
+      clearInterval(intervalQuiz);
+
+    } else {
+      setTimeout(countdown, 6000);
+      console.log(intervalQuiz)
+    };
+  }, 1000) //timing 1s calling
+
+} else {
+  document.getElementById("start-btn").value = "Incorrect Password";
+  document.getElementById("password").placeholder = "! Please enter correct password";
+}
+
+};
+
+
+function myFocus() {
+document.getElementById("start-btn").value = "Start Quiz";
+};
+
+
+const getResult = document.getElementById("getResult");
+const checkAnswer = document.getElementById("checkAns");
+
+
+
+function checkAnswers() {
+
+index = 0;
+removeRightColor();
+
+submitbuttonHide = 1;
+disabelTrue = 1;
+getResult.classList.remove("getResult-display");
+displayques.classList.add("quesDisplayVis");
+
+
+document.getElementById("submitAtLast").classList.remove("submit-btn-display")
+
+for (var i = 0; i < questions.length; i++) {
+  for (var x = 0; x < questions.length; x++) {
+    if (index == x) {
+      // optionsInput[4].checked = true
+      optionsInput[ans[x] || 0].checked = true;
+    } else if (index == questions.length) {
+      reset()
+    }
+
+  }
+};
+
+loadQuestion();
+
+optionsInput.forEach((options) => {
+  if (options.checked) {
+    options.disabled = false;
+  } else {
+    options.disabled = true;
+  }
+});
+
+
+document.getElementById("got-to-result").classList.add("got-to-result-display");
+setInterval(changeRightColor, 500);
+
+
+};
+
+function goToResult() {
+removeRightColor();
+index = 0;
+
+getResult.classList.add("getResult-display");
+displayques.classList.remove("quesDisplayVis");
+document.getElementById("got-to-result").classList.remove("got-to-result-display");
+document.getElementById("quesBoxh3").innerHTML = ` Thank you for attempt the Quiz .`;
+
+
+
+};
+
+
+
+
+const endQuiz = () => {
+let wronsansString = wrongAns.join();
+displayques.classList.remove("quesDisplayVis");
+getResult.classList.add("getResult-display");
+
+
+document.getElementById("quesBoxh3").innerHTML = `
+<span style="font-size:23px;">Thank you for attempt the Quiz .</span>`;
+
+document.getElementById("getResult-box").innerHTML =
+  `<h3 style="color:#dec496; padding-left:10px;">  Student Name : <span style="color:#ffffff;">${studentname}</span> <br> Class : <span style="color:#ffffff;">${studentclass}th </span><br><br> Subject : (<span style="color:#ffffff;"> ${subject} </span>) </h3> 
+   <h2 class="thanks" style="color:#dec496;  padding-left:10px;"> [ <span style="color:#ffffff;">${right} / ${totle}</span> ] <br>
+  ( Are correct answers ) <br> &  <br>( Incorrect answer : <span style="color:#ff0000d6;">${wrong}</span> ) <br><br> Question No: <br>( <span style="display: block;color:#afafaf;width: 100%;overflow: hidden;font-size: 11px;">${wronsansString}</span> ) </h2>`
+};
+
+
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({
+  pageLanguage: 'en'
+}, 'google_translate_element');
+};
+
+// let googleTrans = document.querySelectorAll(".goog-te-combo");
+
+//   googleTrans.forEach((option)=>{
+
+//       option.setAttribute("class", "display-none8")
+
+//   })
