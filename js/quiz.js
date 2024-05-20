@@ -443,7 +443,7 @@ const optionsInput = document.querySelectorAll(".options");
 const printMinuts = document.getElementById('minuts-h');
 const printSecond = document.getElementById('seconds-h');
 
-const subject = "Science";
+const subject = "Ramayana";
 const minutsValue = 30; // minuts ko idhar se change karte hai//
 const secondValue = 60; // idhar se ham sec ko value denge
 let min = minutsValue;
