@@ -1015,10 +1015,10 @@ new google.translate.TranslateElement({
 }, 'google_translate_element');
 };
 
-let googleTrans = document.querySelectorAll(".goog-te-combo");
+// let googleTrans = document.querySelectorAll(".goog-te-combo");
 
-  googleTrans.forEach((option)=>{
+//   googleTrans.forEach((option)=>{
 
-      option.setAttribute("class", "display-none8")
+//       option.setAttribute("class", "display-none8")
 
-  })
+//   })
