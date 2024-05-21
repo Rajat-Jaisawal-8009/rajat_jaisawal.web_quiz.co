@@ -1011,7 +1011,7 @@ document.getElementById("getResult-box").innerHTML =
 
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({
-  pageLanguage: 'en','hi
+  pageLanguage: 'en'
 }, 'google_translate_element');
 };
 
