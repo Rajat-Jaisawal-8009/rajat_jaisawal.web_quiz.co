@@ -618,15 +618,6 @@ option {
 
 
 
-/* select.goog-te-combo option {
-  display: none;
-}
-
-select.goog-te-combo option[value=""],[value="hi"],[value="en"],[value="gu"],[value="ta"],[value="te"],[value="mr"],[value="ml"],[value="bn"],[value="kn"] ,[value="pa"]{
-  display: block !important;
-} */
-
-
 
 @media screen and (max-width:767px) {
   .container {

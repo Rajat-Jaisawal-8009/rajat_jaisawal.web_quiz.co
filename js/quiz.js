@@ -443,11 +443,11 @@ const optionsInput = document.querySelectorAll(".options");
 const printMinuts = document.getElementById('minuts-h');
 const printSecond = document.getElementById('seconds-h');
 
-const subject = "Science";
-const minutsValue = 50; // minuts ko idhar se change karte hai//
-const secondValue = 10; // idhar se ham sec ko value denge
+const subject = "Ramayana";
+const minutsValue = 30; // minuts change //
+const secondValue = 60; // sec change //
 let min = minutsValue;
-let sec = 0; // ye hamesa 0 hi rahega//
+let sec = 0; //  0 //
 
 
 let index = Number(0);
@@ -481,7 +481,7 @@ wrong = 0;
 
 let ans = [];
 let wrongAns = [];
-//note:agar kewal time khatam hone par result chahiye to  css me .submit-btn-display ko coment kar denge// 
+
 
 
 
@@ -658,44 +658,7 @@ if (index < questions.length - 1) {
     }
   };
 
-
-
-  loadQuestion()
-  // if (index == 0) {
-  //   optionsInput[4].checked = true
-  //   optionsInput[ans[0]].checked = true;
-
-  // } else if (index == 1) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[1]].checked = true;
-
-  // } else if (index == 2) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[2]].checked = true;
-
-  // } else if (index == 3) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[3]].checked = true;
-
-  // } else if (index == 4) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[4]].checked = true;
-
-  // } else if (index == 5) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[5]].checked = true;
-
-  // } else if (index == 6) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[6]].checked = true;
-
-  // } else if (index == 7) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[7]].checked = true;
-
-  // } else {
-  //   reset()
-  // }
+loadQuestion()
 };
 
 
@@ -739,47 +702,10 @@ if (index > 0) {
 
     }
   };
-
-
   loadQuestion();
-
-  // if (index == 0) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[0]].checked = true;
-
-  // } else if (index == 1) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[1]].checked = true;
-
-  // } else if (index == 2) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[2]].checked = true;
-
-  // } else if (index == 3) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[3]].checked = true;
-
-  // } else if (index == 4) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[4]].checked = true;
-
-  // } else if (index == 5) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[5]].checked = true;
-
-  // } else if (index == 6) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[6]].checked = true;
-
-  // } else if (index == 7) {
-  //   optionsInput[4].checked = true;
-  //   optionsInput[ans[7]].checked = true;
-
-  // } else {
-  //   reset()
-  // }
 };
 
+  
 if (disabelTrue == 1) {
   optionsInput.forEach((options) => {
     if (options.checked) {
@@ -1086,9 +1012,10 @@ document.getElementById("getResult-box").innerHTML =
 
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({
+
   pageLanguage: 'none', includedLanguages: 'hi,en,gu,ta,mr,ml,bn,kn,pa'
+
 }, 'google_translate_element');
 };
-
 
 
