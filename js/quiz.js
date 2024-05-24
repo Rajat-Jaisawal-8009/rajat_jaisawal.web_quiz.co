@@ -1,9 +1,9 @@
 const questions = [{
-  "que": "रामायण जिस युग से सम्बन्धित है, उसका क्या नाम है ?",
-  "a": "त्रेतायुग",
-  "b": "सत्ययुग",
-  "c": "द्वापरयुग",
-  "d": "कलियुग",
+  "que": "What is the name of the era to which Ramayana belongs ? ",
+  "a": "Treta-Yuga",
+  "b": "Satya-Yuga",
+  "c": "Dvapara-Yuga",
+  "d": "Kali-Yuga",
   "anomynuos": 3,
   "anonymous": 1,
   "anomynous": 2,
@@ -12,11 +12,11 @@ const questions = [{
 },
 
 {
-  "que": "भगवान राम जी के पिता का नाम क्या था?",
-  "a": "शालिशुका",
-  "b": "बृहद्रथ",
-  "c": "राजाधिराज",
-  "d": "दशरथ ",
+  "que": "What was the name of Lord Ram's father ?",
+  "a": "Shaalishuka",
+  "b": "Brhadratha",
+  "c": "Rajadhiraja",
+  "d": "Dashratha ",
   "anomynuos": 1,
   "anonymous": 4,
   "anomynous": 2,
@@ -25,11 +25,11 @@ const questions = [{
 },
 
 {
-  "que": "लक्ष्मण जी को किसका अवतार माना जाता है?",
-  "a": "भगवान विष्णु",
-  "b": "भगवान शिव",
-  "c": "भगवान ब्रह्मा",
-  "d": "शेषनाग",
+  "que": "Whose incarnation is Lakshman ji considered ?",
+  "a": " Lord Vishnu",
+  "b": " Lord Shiva",
+  "c": " Brahma ",
+  "d": "Shesh Naag",
   "anomynuos": 2,
   "anonymous": 4,
   "anomynous": 1,
@@ -39,11 +39,11 @@ const questions = [{
 
 
 {
-  "que": " राम भक्त हनुमान जी के पुत्र का क्या नाम है ?",
-  "a": "घटोत्कच",
-  "b": "सुग्रीव",
-  "c": "मकरध्वज",
-  "d": "अंगद",
+  "que": " What is the name of the son of Ram devotee Hanuman ji ?",
+  "a": " Ghatotkachha ",
+  "b": " Sugriva ",
+  "c": " Makardhwaj ",
+  "d": " Angad ",
   "anomynuos": 2,
   "anonymous": 3,
   "anomynous": 4,
@@ -56,11 +56,11 @@ const questions = [{
 
 
 {
-  "que": "राम जी को वनवास देने की प्रेरणा कैकेयी को किससे मिली थी ?",
-  "a": "कैकसी",
-  "b": "मंदोदरी",
-  "c": "मन्थरा",
-  "d": "उर्मिला",
+  "que": "From whom did Kaikeyi get the inspiration to send Ram ji to exile ?",
+  "a": "Kaikasi",
+  "b": "Mandodari",
+  "c": "Manthara",
+  "d": "Urmila",
   "anomynuos": 1,
   "anonymous": 3,
   "anomynous": 2,
@@ -70,7 +70,7 @@ const questions = [{
 
 
 {
-  "que": "श्रीराम कुल कितने भाई थे?",
+  "que": "How many brothers did Shri Ram have ?",
   "a": "3",
   "b": "4",
   "c": "2",
@@ -84,7 +84,7 @@ const questions = [{
 
 
 {
-  "que": "राजा दशरथ जी की कितनी पत्नियाँ थीं?",
+  "que": "How many wives did King Dasharatha have ?",
   "a": "3",
   "b": "4",
   "c": "2",
@@ -98,7 +98,7 @@ const questions = [{
 
 
 {
-  "que": "मां कौशल्या के कितने पुत्र थे?",
+  "que": "How many sons did mother Kaushalya have ?",
   "a": "1",
   "b": "2",
   "c": "3",
@@ -112,11 +112,11 @@ const questions = [{
 
 
 {
-  "que": "मां कौशल्या के पुत्र का क्या नाम है",
-  "a": "लक्ष्मण जी",
-  "b": "भरत जी",
-  "c": "राम जी",
-  "d": "शत्रुधन जी",
+  "que": "What is the name of mother Kaushalya's son ?",
+  "a": "Laxman Ji",
+  "b": "Bharat Ji",
+  "c": "Ram Ji",
+  "d": "Shatrudhan Ji",
   "anomynuos": 1,
   "anonymous": 3,
   "anomynous": 2,
@@ -126,7 +126,7 @@ const questions = [{
 
 
 {
-  "que": "मां कैकेयी के कितने पुत्र थे?",
+  "que": "How many sons did mother Kaikeyi have ?",
   "a": "1",
   "b": "2",
   "c": "3",
@@ -140,11 +140,11 @@ const questions = [{
 
 
 {
-  "que": "मां कैकेयी के पुत्र का क्या नाम है",
-  "a": "राम जी",
-  "b": "शत्रुधन जी",
-  "c": "लक्ष्मण जी",
-  "d": "भरत जी",
+  "que": "What is the name of mother Kaikeyi's son ?",
+  "a": "Ram Ji",
+  "b": "Shatrudhan Ji",
+  "c": "Laxman Ji",
+  "d": "Bharat Ji",
   "anomynuos": 1,
   "anonymous": 4,
   "anomynous": 2,
@@ -153,7 +153,7 @@ const questions = [{
 },
 
 {
-  "que": "मां सुमित्रा के कितने पुत्र थे?",
+  "que": "How many sons did mother Sumitra have ?",
   "a": "1",
   "b": "2",
   "c": "3",
@@ -166,11 +166,11 @@ const questions = [{
 },
 
 {
-  "que": "मां सुमित्रा के पुत्रो का क्या नाम है",
-  "a": "भरत जी, शत्रुधन जी",
-  "b": "राम जी, भरत जी",
-  "c": "राम जी, लक्ष्मण जी",
-  "d": "शत्रुधन जी, लक्ष्मण जी",
+  "que": "What are the names of mother Sumitra's sons ?",
+  "a": "Bharat ji, Shatrudhan ji",
+  "b": "Ram ji, Bharat ji",
+  "c": "Ram ji, Laxman ji",
+  "d": "Shatrudhan ji, Lakshman ji",
   "anomynuos": 3,
   "anonymous": 4,
   "anomynous": 1,
@@ -179,11 +179,11 @@ const questions = [{
 },
 
 {
-  "que": " लक्ष्मण जी को नागपाश से मुक्त किसने किया था ?",
-  "a": "जटायु",
-  "b": "सम्पाती",
-  "c": "गरुड़ देव",
-  "d": "जामवन्त",
+  "que": " Who freed Lakshman ji from the snake charmer ?",
+  "a": "Jatayu",
+  "b": "Sampaati",
+  "c": "Garud Dev",
+  "d": "Jamvant",
   "anomynuos": 4,
   "anonymous": 3,
   "anomynous": 2,
@@ -192,11 +192,11 @@ const questions = [{
 },
 
 {
-  "que": "श्रीराम जी को यह सलाह किसने दी थी कि लंका से सीता को छुड़ाने के लिए सुग्रीव से मित्रता की जाए ?",
-  "a": "मारीच",
-  "b": "हनुमान जी",
-  "c": "नील",
-  "d": "शबरी",
+  "que": "Who advised Shri Ram ji to befriend Sugriva to rescue Sita from Lanka ?",
+  "a": "Marich",
+  "b": "Hanuman",
+  "c": "Neel",
+  "d": "Shabari",
   "anomynuos": 4,
   "anonymous": 2,
   "anomynous": 3,
@@ -205,11 +205,11 @@ const questions = [{
 },
 
 {
-  "que": "श्रीराम ______ अंशावतार थे ?",
-  "a": "देवराज इन्द्र",
-  "b": "ब्रह्मा जी",
-  "c": "विष्णु जी",
-  "d": "सूर्य",
+  "que": "Shri Ram was ______ Ansavatar ?",
+  "a": "Devraj Indra",
+  "b": "Brahma ji",
+  "c": "Vishnu ji",
+  "d": "Surya",
   "anomynuos": 2,
   "anonymous": 3,
   "anomynous": 4,
@@ -218,11 +218,11 @@ const questions = [{
 },
 
 {
-  "que": " लंका नगरी किस पर्वत पर स्थित थी ?",
-  "a": "कैलास",
-  "b": "सुमेरु",
-  "c": "त्रिकूट",
-  "d": "गंधमादन",
+  "que": " On which mountain was the city of Lanka located ?",
+  "a": "Kailash",
+  "b": "Sumeru",
+  "c": "Trikuta",
+  "d": "Gandhmadan",
   "anomynuos": 4,
   "anonymous": 3,
   "anomynous": 1,
@@ -232,11 +232,11 @@ const questions = [{
 
 
 {
-  "que": " भरत जी की पत्नी का क्या नाम था ?",
-  "a": "सुचेता",
-  "b": "उर्मिला",
-  "c": "श्रुतकीर्ति",
-  "d": "मांडवी",
+  "que": " What was the name of Bharat ji's wife ?",
+  "a": "Sucheta",
+  "b": "Urmila",
+  "c": "Shrutakirti",
+  "d": "Mandvi",
   "anomynuos": 3,
   "anonymous": 4,
   "anomynous": 1,
@@ -246,11 +246,11 @@ const questions = [{
 
 
 {
-  "que": "हनुमान जी की माता कौन थीं ?",
-  "a": "सुलक्षणा",
-  "b": "अंजनी",
-  "c": "कृतिका",
-  "d": "अहल्या",
+  "que": "Who was the mother of Hanuman ji ?",
+  "a": "Sulakshana",
+  "b": "Anjani",
+  "c": "Kritika",
+  "d": "Ahalya",
   "anomynuos": 1,
   "anonymous": 2,
   "anomynous": 3,
@@ -260,11 +260,11 @@ const questions = [{
 
 
 {
-  "que": "इनमें से कौन लक्ष्मण जी की पत्नी थीं ?",
-  "a": "उर्मिला",
-  "b": "सुलक्षणा",
-  "c": "मांडवी",
-  "d": "श्रुतकीर्ति",
+  "que": "Who among these was Lakshman ji's wife ?",
+  "a": "Urmila",
+  "b": "Sulakshana",
+  "c": "Mandvi",
+  "d": "Srutakirti",
   "anomynuos": 2,
   "anonymous": 1,
   "anomynous": 3,
@@ -274,11 +274,11 @@ const questions = [{
 
 
 {
-  "que": "सीता जी किसकि अवतार थीं ?",
-  "a": "सती",
-  "b": "शक्ति",
-  "c": "सरस्वती जी",
-  "d": "लक्ष्मी जी",
+  "que": "Whose incarnation was Sita ji ?",
+  "a": "Sati",
+  "b": "Shakti",
+  "c": "Saraswati ji",
+  "d": "Lakshmi ji",
   "anomynuos": 3,
   "anonymous": 4,
   "anomynous": 2,
@@ -288,11 +288,11 @@ const questions = [{
 
 
 {
-  "que": "वनवास काल में श्रीराम सर्वाधिक समय तक किस स्थान पर ठहरे थे ?",
-  "a": "समुद्र तट पर",
-  "b": "चित्रकूट में",
-  "c": " भरद्वाज के आश्रम में",
-  "d": " किष्किंधा में",
+  "que": "At which place did Shri Ram stay for the longest time during his exile ?",
+  "a": "on the beach",
+  "b": "in Chitrakoot",
+  "c": " in Bhardwaj's ashram",
+  "d": " in kishkindha",
   "anomynuos": 3,
   "anonymous": 2,
   "anomynous": 4,
@@ -302,11 +302,11 @@ const questions = [{
 
 
 {
-  "que": "हनुमान जी किसके अंश से उत्पन्न हुए थे ?",
-  "a": "कुबेर",
-  "b": " वायु देव",
-  "c": "धर्म",
-  "d": "अश्विनीकुमार",
+  "que": "From whose part was Hanuman ji born ? ",
+  "a": "Kuber",
+  "b": " Vayu dev",
+  "c": "Dharm",
+  "d": "Ashwini Kumar",
   "anomynuos": 1,
   "anonymous": 2,
   "anomynous": 3,
@@ -316,11 +316,11 @@ const questions = [{
 
 
 {
-  "que": "रामभक्त हनुमान जी के पिता कौन थे ?",
-  "a": "केसरी",
-  "b": "हयग्रीव",
-  "c": "बालि",
-  "d": "सुग्रीव",
+  "que": "Who was the father of Rambhakt Hanuman ji ?",
+  "a": "Kesri",
+  "b": "Hayagriva",
+  "c": "Bali",
+  "d": "Sugriva",
   "anomynuos": 3,
   "anonymous": 1,
   "anomynous": 4,
@@ -330,11 +330,11 @@ const questions = [{
 
 
 {
-  "que": "लंकापति रावण किसका पुत्र था ?",
-  "a": "पुलस्त्य",
-  "b": "विश्रवा",
-  "c": "अहिरावण",
-  "d": "सुमाली",
+  "que": "Whose son was Lankapati Ravana ?",
+  "a": "Pulastya",
+  "b": "Vishrava",
+  "c": "Ahiravan",
+  "d": "Sumali",
   "anomynuos": 1,
   "anonymous": 2,
   "anomynous": 3,
@@ -344,11 +344,11 @@ const questions = [{
 
 
 {
-  "que": "जनक जी कहाँ के राजा थे ?",
-  "a": "अलकापुरी",
-  "b": "केकय",
-  "c": "मिथिला",
-  "d": "अयोध्या",
+  "que": "Where was Janak ji the king ?",
+  "a": "Alkapuri",
+  "b": "Kekay",
+  "c": "Mithila",
+  "d": "Ayodhya",
   "anomynuos": 1,
   "anonymous": 3,
   "anomynous": 2,
@@ -358,11 +358,11 @@ const questions = [{
 
 
 {
-  "que": "श्रीराम जी के वनवास से लौटकर आने की सूचना भरत को किसने दी थी ?",
-  "a": "विनत जी",
-  "b": "अंगद जी",
-  "c": "हनुमान जी",
-  "d": "नल",
+  "que": "Who informed Bharat about Shri Ram's return from exile ?",
+  "a": "Vinat ji",
+  "b": "Angad ji",
+  "c": "Hanuman ji",
+  "d": "Nal ji",
   "anomynuos": 2,
   "anonymous": 3,
   "anomynous": 4,
@@ -371,11 +371,11 @@ const questions = [{
 },
 
 {
-  "que": "वानर नल के पिता कौन थे ?",
-  "a": "बालि",
-  "b": "मय",
-  "c": "इन्द्र",
-  "d": "विश्वकर्मा",
+  "que": "Who was the father of Vanar Nal ?",
+  "a": "Bali",
+  "b": "May",
+  "c": "Indra",
+  "d": "Vishwakarma",
   "anomynuos": 3,
   "anonymous": 4,
   "anomynous": 2,
@@ -385,11 +385,11 @@ const questions = [{
 
 
 {
-  "que": "लंका जाने हेतु समुद्र पर सेतु बाँधते समय श्रीराम जी ने किस देवता की आराधना की थी ?",
-  "a": "विष्णु जी",
-  "b": "शिव जी",
-  "c": "ब्रह्मा जी",
-  "d": "वरुण जी",
+  "que": "Which deity did Shri Ram worship while building a bridge across the sea to go to Lanka ?",
+  "a": "Vishnu ji",
+  "b": "Shiva ji",
+  "c": "Brahma ji",
+  "d": "Varun ji",
   "anomynuos": 3,
   "anonymous": 2,
   "anomynous": 4,
@@ -399,11 +399,11 @@ const questions = [{
 
 
 {
-  "que": "सीता जी के स्वयंवर की क्या शर्त थी ?",
-  "a": "जनक को पराजित करना",
-  "b": "शिव जी का धनुष उठाना",
-  "c": "सीता जी की पसंद",
-  "d": "शिव धनुष भंग करना",
+  "que": "What was the condition of Sita ji's swayamvar ?",
+  "a": "defeat the father",
+  "b": "lifting the bow of Lord Shiva",
+  "c": "Sita ji's choice",
+  "d": "breaking shiva bow",
   "anomynuos": 1,
   "anonymous": 2,
   "anomynous": 4,
@@ -413,11 +413,11 @@ const questions = [{
 
 
 {
-  "que": "निम्न में से किस ऋषि ने सीताजी की शुद्धता का दावा किया था ?",
-  "a": "वाल्मीकि जी",
-  "b": "विश्वामित्र जी",
-  "c": "भरद्वाज जी",
-  "d": "परशुराम जी",
+  "que": "Which of the following sages claimed the chastity of Sitaji ?",
+  "a": "Valmiki ji",
+  "b": "Vishwamitra ji",
+  "c": "Bhardwaj ji",
+  "d": "Parshuram ji",
   "anomynuos": 2,
   "anonymous": 1,
   "anomynous": 3,
@@ -1083,16 +1083,12 @@ document.getElementById("getResult-box").innerHTML =
 };
 
 
+
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({
-  pageLanguage: 'en'
+  pageLanguage: 'none', includedLanguages: 'hi,en,gu,ta,mr,ml,bn,kn,pa'
 }, 'google_translate_element');
 };
 
-// let googleTrans = document.querySelectorAll(".goog-te-combo");
 
-//   googleTrans.forEach((option)=>{
 
-//       option.setAttribute("class", "display-none8")
-
-//   })

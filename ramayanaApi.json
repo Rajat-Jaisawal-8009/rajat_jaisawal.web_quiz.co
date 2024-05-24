@@ -1,0 +1,428 @@
+{"questions" : [{
+  "que": "What is the name of the era to which Ramayana belongs ? ",
+  "a": "Treta-Yuga",
+  "b": "Satya-Yuga",
+  "c": "Dvapara-Yuga",
+  "d": "Kali-Yuga",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+{
+  "que": "What was the name of Lord Ram's father ?",
+  "a": "Shaalishuka",
+  "b": "Brhadratha",
+  "c": "Rajadhiraja",
+  "d": "Dashratha ",
+  "anomynuos": 1,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+{
+  "que": "Whose incarnation is Lakshman ji considered ?",
+  "a": " Lord Vishnu",
+  "b": " Lord Shiva",
+  "c": " Brahma ",
+  "d": "Shesh Naag",
+  "anomynuos": 2,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 3,
+  "anonymuos": "rajat"
+},
+
+
+{
+  "que": " What is the name of the son of Ram devotee Hanuman ji ?",
+  "a": " Ghatotkachha ",
+  "b": " Sugriva ",
+  "c": " Makardhwaj ",
+  "d": " Angad ",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+
+
+
+{
+  "que": "From whom did Kaikeyi get the inspiration to send Ram ji to exile ?",
+  "a": "Kaikasi",
+  "b": "Mandodari",
+  "c": "Manthara",
+  "d": "Urmila",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "How many brothers did Shri Ram have ?",
+  "a": "3",
+  "b": "4",
+  "c": "2",
+  "d": "5",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "How many wives did King Dasharatha have ?",
+  "a": "3",
+  "b": "4",
+  "c": "2",
+  "d": "6",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "How many sons did mother Kaushalya have ?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "What is the name of mother Kaushalya's son ?",
+  "a": "Laxman Ji",
+  "b": "Bharat Ji",
+  "c": "Ram Ji",
+  "d": "Shatrudhan Ji",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "How many sons did mother Kaikeyi have ?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "What is the name of mother Kaikeyi's son ?",
+  "a": "Ram Ji",
+  "b": "Shatrudhan Ji",
+  "c": "Laxman Ji",
+  "d": "Bharat Ji",
+  "anomynuos": 1,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+{
+  "que": "How many sons did mother Sumitra have ?",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+{
+  "que": "What are the names of mother Sumitra's sons ?",
+  "a": "Bharat ji, Shatrudhan ji",
+  "b": "Ram ji, Bharat ji",
+  "c": "Ram ji, Laxman ji",
+  "d": "Shatrudhan ji, Lakshman ji",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+{
+  "que": " Who freed Lakshman ji from the snake charmer ?",
+  "a": "Jatayu",
+  "b": "Sampaati",
+  "c": "Garud Dev",
+  "d": "Jamvant",
+  "anomynuos": 4,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "Who advised Shri Ram ji to befriend Sugriva to rescue Sita from Lanka ?",
+  "a": "Marich",
+  "b": "Hanuman",
+  "c": "Neel",
+  "d": "Shabari",
+  "anomynuos": 4,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "Shri Ram was ______ Ansavatar ?",
+  "a": "Devraj Indra",
+  "b": "Brahma ji",
+  "c": "Vishnu ji",
+  "d": "Surya",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": " On which mountain was the city of Lanka located ?",
+  "a": "Kailash",
+  "b": "Sumeru",
+  "c": "Trikuta",
+  "d": "Gandhmadan",
+  "anomynuos": 4,
+  "anonymous": 3,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": " What was the name of Bharat ji's wife ?",
+  "a": "Sucheta",
+  "b": "Urmila",
+  "c": "Shrutakirti",
+  "d": "Mandvi",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 1,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Who was the mother of Hanuman ji ?",
+  "a": "Sulakshana",
+  "b": "Anjani",
+  "c": "Kritika",
+  "d": "Ahalya",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Who among these was Lakshman ji's wife ?",
+  "a": "Urmila",
+  "b": "Sulakshana",
+  "c": "Mandvi",
+  "d": "Srutakirti",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Whose incarnation was Sita ji ?",
+  "a": "Sati",
+  "b": "Shakti",
+  "c": "Saraswati ji",
+  "d": "Lakshmi ji",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "At which place did Shri Ram stay for the longest time during his exile ?",
+  "a": "on the beach",
+  "b": "in Chitrakoot",
+  "c": " in Bhardwaj's ashram",
+  "d": " in kishkindha",
+  "anomynuos": 3,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "From whose part was Hanuman ji born ? ",
+  "a": "Kuber",
+  "b": " Vayu dev",
+  "c": "Dharm",
+  "d": "Ashwini Kumar",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Who was the father of Rambhakt Hanuman ji ?",
+  "a": "Kesri",
+  "b": "Hayagriva",
+  "c": "Bali",
+  "d": "Sugriva",
+  "anomynuos": 3,
+  "anonymous": 1,
+  "anomynous": 4,
+  "anonynous": 2,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Whose son was Lankapati Ravana ?",
+  "a": "Pulastya",
+  "b": "Vishrava",
+  "c": "Ahiravan",
+  "d": "Sumali",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Where was Janak ji the king ?",
+  "a": "Alkapuri",
+  "b": "Kekay",
+  "c": "Mithila",
+  "d": "Ayodhya",
+  "anomynuos": 1,
+  "anonymous": 3,
+  "anomynous": 2,
+  "anonynous": 4,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Who informed Bharat about Shri Ram's return from exile ?",
+  "a": "Vinat ji",
+  "b": "Angad ji",
+  "c": "Hanuman ji",
+  "d": "Nal ji",
+  "anomynuos": 2,
+  "anonymous": 3,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+{
+  "que": "Who was the father of Vanar Nal ?",
+  "a": "Bali",
+  "b": "May",
+  "c": "Indra",
+  "d": "Vishwakarma",
+  "anomynuos": 3,
+  "anonymous": 4,
+  "anomynous": 2,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Which deity did Shri Ram worship while building a bridge across the sea to go to Lanka ?",
+  "a": "Vishnu ji",
+  "b": "Shiva ji",
+  "c": "Brahma ji",
+  "d": "Varun ji",
+  "anomynuos": 3,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 1,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "What was the condition of Sita ji's swayamvar ?",
+  "a": "defeat the father",
+  "b": "lifting the bow of Lord Shiva",
+  "c": "Sita ji's choice",
+  "d": "breaking shiva bow",
+  "anomynuos": 1,
+  "anonymous": 2,
+  "anomynous": 4,
+  "anonynous": 3,
+  "anonymuos": ""
+},
+
+
+{
+  "que": "Which of the following sages claimed the chastity of Sitaji ?",
+  "a": "Valmiki ji",
+  "b": "Vishwamitra ji",
+  "c": "Bhardwaj ji",
+  "d": "Parshuram ji",
+  "anomynuos": 2,
+  "anonymous": 1,
+  "anomynous": 3,
+  "anonynous": 4,
+  "anonymuos": ""
+}
+
+]}
