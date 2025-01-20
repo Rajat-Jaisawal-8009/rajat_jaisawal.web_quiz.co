@@ -475,19 +475,11 @@ optionSelectIndex()
 
 };
 
-
 var right = 0,
 wrong = 0;
 
 let ans = [];
 let wrongAns = [];
-
-
-
-
-
-
-
 
 
 function assing() {
@@ -606,11 +598,6 @@ optionsInput.forEach((getElement) => {
 
 })
 };
-
-
-
-
-
 
 
 // function visibSubmitBtn(){
@@ -769,10 +756,6 @@ var selectvalue2 = document.getElementById("getQuesNum");
 selectvalue2.selectedIndex = index;
 };
 
-
-
-
-
 // countDownQuiz Timing///
 function countdown() {
 if (sec === 0) {
@@ -799,14 +782,14 @@ if (sec < 10) {
 
 // startTimeDisply /// // for Start Timing
 
-let startTimeMin = 1; // minuts ko idhar se change karte hai//
-let startTimeSec = 0; // ye hamesa 0 hi rahega//
+let startTimeMin = 1; 
+let startTimeSec = 0; 
 const startButton = document.getElementById("start-btn");
 const startTimeDisply = document.getElementById("countDown4sec");
 
 function countstartTime() {
 if (startTimeSec === 0) {
-  startTimeSec = 6; // idhar se ham sec ko value denge
+  startTimeSec = 6; 
   startTimeMin--;
 };
 
